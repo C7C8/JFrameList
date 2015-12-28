@@ -2,8 +2,10 @@ package jFrameList;
 
 public class JFrameList
 {
+	static final String encoding = "UTF-8";
 	public static void main(String[] args)
 	{
-		System.out.println("Test!");
+		String filename = new String("FRAME_List.xml");
+		
 	}
 }
