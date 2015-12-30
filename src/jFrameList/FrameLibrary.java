@@ -1,7 +1,8 @@
 package jFrameList;
 
-import java.awt.List;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -11,9 +12,9 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-class FrameLibrary
+public class FrameLibrary
 {
-	protected List frameList = new List();
+	protected ArrayList<Frame> frameList = new ArrayList<Frame>();
 	
 	public void parse(String filename)
 	{
@@ -59,12 +60,126 @@ class FrameLibrary
 							frame.foci.add(eFCS.getTextContent());
 						}
 					}
+					frameList.add(frame);
 				}
 			}
 		}
-		catch (Exception e)
+		catch (FileNotFoundException ex)
 		{
-			e.printStackTrace();
+			System.out.println("Couldn't find file " + filename + "!");
 		}
+		catch (Exception ex)
+		{
+			ex.printStackTrace();
+		}
+	}
+	
+	public int size()
+	{
+		return frameList.size();
+	}
+	
+	public void clear()
+	{
+		frameList.clear();
+	}
+	
+	public ArrayList<Frame> searchName(String key)
+	{
+		ArrayList<Frame> ret = new ArrayList<Frame>();
+		key = key.toLowerCase(); //Makes searching easier
+		
+		try
+		{
+			for (int i = 0; i < frameList.size(); i++)
+			{
+				Frame frame = (Frame) frameList.get(i).clone();
+				frame.name = frame.name.toLowerCase();
+				if (frame.name.contains(key))
+					ret.add((Frame) frameList.get(i).clone());
+			}
+		}
+		catch (CloneNotSupportedException ex)
+		{
+			ex.printStackTrace();
+		}
+		
+		return ret;
+	}
+	
+	public ArrayList<Frame> searchYear(int key)
+	{
+		ArrayList<Frame> ret = new ArrayList<Frame>();
+		try
+		{
+			for (int i = 0; i < frameList.size(); i++)
+			{
+				Frame frame = (Frame) frameList.get(i).clone();
+				if (key == frame.year)
+					ret.add(frame);
+			}
+		}
+		catch (CloneNotSupportedException ex)
+		{
+			ex.printStackTrace();
+		}
+		
+		return ret;
+	}
+
+	public ArrayList<Frame> searchResearcher(String key)
+	{
+		ArrayList<Frame> ret = new ArrayList<Frame>();
+		key = key.toLowerCase();
+		
+		try
+		{
+			for (int i = 0; i < frameList.size(); i++)
+			{
+				Frame frame = (Frame) frameList.get(i).clone();
+				for (int j = 0; j < frame.researchers.size(); j++)
+				{
+					String rsc = frame.researchers.get(j).toLowerCase();
+					if (rsc.contains(key))
+					{
+						ret.add(frame);
+						break;
+					}
+				}
+			}
+		}
+		catch (CloneNotSupportedException ex)
+		{
+			ex.printStackTrace();
+		}
+		return ret;
+	}
+	
+	public ArrayList<Frame> searchFocus(String key)
+	{
+		ArrayList<Frame> ret = new ArrayList<Frame>();
+		key = key.toLowerCase();
+		
+		try
+		{
+			for (int i = 0; i < frameList.size(); i++)
+			{
+				Frame frame = (Frame) frameList.get(i).clone();
+				for (int j = 0; j < frame.foci.size(); j++)
+				{
+					String foc = frame.foci.get(j).toLowerCase();
+					if (foc.contains(key))
+					{
+						ret.add(frame);
+						break;
+					}
+				}
+			}
+		}
+		catch (CloneNotSupportedException ex)
+		{
+			ex.printStackTrace();
+		}
+		return ret;
 	}
 }
