@@ -1,12 +1,22 @@
 package jFrameList;
 
-import java.awt.List;
+import java.util.ArrayList;
 
 
-class Frame
+public class Frame implements Cloneable
 {
 	public String name;
 	public int year;
-	public List researchers = new List();
-	public List foci = new List();
+	public ArrayList<String> researchers = new ArrayList<String>();
+	public ArrayList<String> foci = new ArrayList<String>();
+	
+	public Object clone() throws CloneNotSupportedException
+	{
+		Frame cloned = (Frame) super.clone();
+		cloned.name = new String(name);
+		cloned.year = year;
+		cloned.researchers = new ArrayList<String>(researchers);
+		cloned.foci = new ArrayList<String>(foci);
+		return cloned;
+	}
 }
