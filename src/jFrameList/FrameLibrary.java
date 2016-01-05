@@ -15,7 +15,7 @@ import org.w3c.dom.NodeList;
 public class FrameLibrary
 {
 	protected ArrayList<Frame> frameList = new ArrayList<Frame>();
-	
+
 	public void parse(String filename)
 	{
 		try
@@ -73,22 +73,22 @@ public class FrameLibrary
 			ex.printStackTrace();
 		}
 	}
-	
+
 	public int size()
 	{
 		return frameList.size();
 	}
-	
+
 	public void clear()
 	{
 		frameList.clear();
 	}
-	
+
 	public ArrayList<Frame> searchName(String key)
 	{
 		ArrayList<Frame> ret = new ArrayList<Frame>();
 		key = key.toLowerCase(); //Makes searching easier
-		
+
 		try
 		{
 			for (int i = 0; i < frameList.size(); i++)
@@ -103,10 +103,10 @@ public class FrameLibrary
 		{
 			ex.printStackTrace();
 		}
-		
+
 		return ret;
 	}
-	
+
 	public ArrayList<Frame> searchYear(int key)
 	{
 		ArrayList<Frame> ret = new ArrayList<Frame>();
@@ -123,7 +123,7 @@ public class FrameLibrary
 		{
 			ex.printStackTrace();
 		}
-		
+
 		return ret;
 	}
 
@@ -131,7 +131,7 @@ public class FrameLibrary
 	{
 		ArrayList<Frame> ret = new ArrayList<Frame>();
 		key = key.toLowerCase();
-		
+
 		try
 		{
 			for (int i = 0; i < frameList.size(); i++)
@@ -154,12 +154,12 @@ public class FrameLibrary
 		}
 		return ret;
 	}
-	
+
 	public ArrayList<Frame> searchFocus(String key)
 	{
 		ArrayList<Frame> ret = new ArrayList<Frame>();
 		key = key.toLowerCase();
-		
+
 		try
 		{
 			for (int i = 0; i < frameList.size(); i++)
@@ -180,6 +180,55 @@ public class FrameLibrary
 		{
 			ex.printStackTrace();
 		}
+		return ret;
+	}
+
+	public ArrayList<Frame> filter(String name, int year, String researcher, String focus)
+	{
+		ArrayList<Frame> ret = new ArrayList<Frame>();
+
+		try
+		{
+			for (int i = 0; i < frameList.size(); i++)
+			{
+				Frame frame = (Frame) frameList.get(i).clone();
+				String tempFYear = new String(Integer.toString(frame.year));
+
+				if ((!frame.name.toLowerCase().contains(name.toLowerCase()) && !name.isEmpty()) || (!tempFYear.contains(Integer.toString(year)) && year >= 0))
+					continue; //Skip if the name or year doesn't match
+				
+				boolean invalid = false; //kludge
+				for (int j = 0; j < frame.researchers.size() && !researcher.isEmpty(); j++)
+				{
+					String rsc = frame.researchers.get(j).toLowerCase();
+					if (!rsc.contains(researcher.toLowerCase()))
+					{
+						invalid = true;
+						break;
+					}
+				}
+				if (invalid)
+					continue;
+				
+				for (int j = 0; j < frame.foci.size() && !focus.isEmpty(); j++)
+				{
+					String fcs = frame.foci.get(j).toLowerCase();
+					if (!fcs.contains(focus.toLowerCase()))
+					{
+						invalid = true;
+						break;
+					}
+				}
+				
+				if (!invalid)
+					ret.add(frame);
+			}
+		}
+		catch (CloneNotSupportedException ex)
+		{
+			ex.printStackTrace();
+		}
+
 		return ret;
 	}
 }
