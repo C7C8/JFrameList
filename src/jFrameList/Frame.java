@@ -13,8 +13,8 @@ public class Frame implements Cloneable
 	public String getResearchers()
 	{
 		String ret = new String(researchers.get(0));
-		for (int i = 1; i < researchers.size(); i++)
-			ret.concat(", " + researchers.get(i));
+		for (int i = 1; i < researchers.size() && researchers.size() > 1; i++)
+			ret = ret.concat(", " + researchers.get(i));
 		return ret;
 	}
 	public String getFoci()

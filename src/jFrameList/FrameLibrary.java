@@ -47,27 +47,15 @@ public class FrameLibrary
 					frame.name = eFrame.getElementsByTagName("name").item(0).getTextContent();
 					frame.year = Integer.parseInt(eFrame.getElementsByTagName("year").item(0).getTextContent());
 
-					NodeList researchers = eFrame.getElementsByTagName("researchers");
-					for (int rNum = 0; rNum < researchers.getLength(); rNum++)
-					{
-						Node nRSC = researchers.item(rNum);
-						if (nRSC.getNodeType() == Node.ELEMENT_NODE)
-						{
-							Element eRSC = (Element) nRSC;
-							frame.researchers.add(eRSC.getTextContent());
-						}
-					}
-
-					NodeList foci = eFrame.getElementsByTagName("focus");
-					for (int fNum = 0; fNum < foci.getLength(); fNum++)
-					{
-						Node nFCS = foci.item(fNum);
-						if (nFCS.getNodeType() == Node.ELEMENT_NODE)
-						{
-							Element eFCS = (Element) nFCS;
-							frame.foci.add(eFCS.getTextContent());
-						}
-					}
+					NodeList researchers = eFrame.getElementsByTagName("rsc");
+					for (int i = 0; i < researchers.getLength(); i++)
+						frame.researchers.add(researchers.item(i).getTextContent());
+					
+					
+					NodeList foci = eFrame.getElementsByTagName("fcs");
+					for (int i = 0; i < foci.getLength(); i++)
+						frame.foci.add(foci.item(i).getTextContent());
+					
 					frameList.add(frame);
 				}
 			}

@@ -192,6 +192,8 @@ public class JFrameList
 			@Override
 			public void mouseClicked(MouseEvent e) 
 			{
+				if (list.getItemCount() == 0)
+					return;
 				Frame selection = frameList.searchName(list.getSelectedItem()).get(0); //Hack? Should work.
 				nameBox.setText(selection.name);
 				yearBox.setText(Integer.toString(selection.year));
