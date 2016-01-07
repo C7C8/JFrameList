@@ -96,7 +96,6 @@ public class JFrameList
 		panel.add(lblName);
 		
 		nameField = new JTextField();
-		nameField.setDropMode(DropMode.ON);
 		nameField.setBounds(330, 0, 150, 19);
 		panel.add(nameField);
 		nameField.setColumns(10);
@@ -124,7 +123,6 @@ public class JFrameList
 		panel.add(lblFocus);
 		
 		ResearcherField = new JTextField();
-		ResearcherField.setDropMode(DropMode.ON);
 		ResearcherField.setColumns(10);
 		ResearcherField.setBounds(330, 91, 150, 19);
 		panel.add(ResearcherField);
@@ -181,14 +179,5 @@ public class JFrameList
 		textField_3.setBounds(95, 117, 149, 19);
 		panel.add(textField_3);
 		textField_3.setColumns(10);
-		
-		JMenuBar menuBar = new JMenuBar();
-		frmJframelist.setJMenuBar(menuBar);
-		
-		JMenu mnFile = new JMenu("JFrameList");
-		menuBar.add(mnFile);
-		
-		JMenuItem mntmAbout = new JMenuItem("About");
-		mnFile.add(mntmAbout);
 	}
 }
