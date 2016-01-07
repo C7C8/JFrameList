@@ -3,27 +3,12 @@ package jFrameList;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
-import javax.swing.JList;
-import javax.swing.AbstractListModel;
-import javax.swing.ListSelectionModel;
-import javax.swing.border.BevelBorder;
-import java.awt.FlowLayout;
 import java.awt.List;
 import java.awt.BorderLayout;
-import javax.swing.JToolBar;
-import javax.swing.JPopupMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
-import javax.swing.DropMode;
-import java.awt.Component;
-import javax.swing.Box;
 import javax.swing.JButton;
-import javax.swing.JTextPane;
-import java.awt.Label;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
@@ -35,10 +20,10 @@ public class JFrameList
 	private JTextField yearField;
 	private JTextField FocusField;
 	private JTextField ResearcherField;
-	private JTextField textField;
-	private JTextField textField_1;
-	private JTextField textField_2;
-	private JTextField textField_3;
+	private JTextField nameBox;
+	private JTextField yearBox;
+	private JTextField fociBox;
+	private JTextField researcherBox;
 
 	/**
 	 * Launch the application.
@@ -144,40 +129,40 @@ public class JFrameList
 		lblName_1.setBounds(0, 33, 70, 15);
 		panel.add(lblName_1);
 		
-		textField = new JTextField();
-		textField.setEditable(false);
-		textField.setBounds(68, 31, 176, 19);
-		panel.add(textField);
-		textField.setColumns(10);
+		nameBox = new JTextField();
+		nameBox.setEditable(false);
+		nameBox.setBounds(68, 31, 176, 19);
+		panel.add(nameBox);
+		nameBox.setColumns(10);
 		
 		JLabel lblYear_1 = new JLabel("Year");
 		lblYear_1.setBounds(0, 61, 70, 15);
 		panel.add(lblYear_1);
 		
-		textField_1 = new JTextField();
-		textField_1.setEditable(false);
-		textField_1.setBounds(68, 59, 43, 19);
-		panel.add(textField_1);
-		textField_1.setColumns(10);
+		yearBox = new JTextField();
+		yearBox.setEditable(false);
+		yearBox.setBounds(68, 59, 43, 19);
+		panel.add(yearBox);
+		yearBox.setColumns(10);
 		
 		JLabel lblFocus_1 = new JLabel("Foci");
 		lblFocus_1.setBounds(0, 93, 70, 15);
 		panel.add(lblFocus_1);
 		
-		textField_2 = new JTextField();
-		textField_2.setEditable(false);
-		textField_2.setBounds(68, 91, 114, 19);
-		panel.add(textField_2);
-		textField_2.setColumns(10);
+		fociBox = new JTextField();
+		fociBox.setEditable(false);
+		fociBox.setBounds(68, 91, 114, 19);
+		panel.add(fociBox);
+		fociBox.setColumns(10);
 		
 		JLabel lblResearchers = new JLabel("Researchers");
 		lblResearchers.setBounds(0, 119, 89, 15);
 		panel.add(lblResearchers);
 		
-		textField_3 = new JTextField();
-		textField_3.setEditable(false);
-		textField_3.setBounds(95, 117, 149, 19);
-		panel.add(textField_3);
-		textField_3.setColumns(10);
+		researcherBox = new JTextField();
+		researcherBox.setEditable(false);
+		researcherBox.setBounds(95, 117, 149, 19);
+		panel.add(researcherBox);
+		researcherBox.setColumns(10);
 	}
 }
