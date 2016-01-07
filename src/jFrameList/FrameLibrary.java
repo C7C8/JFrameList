@@ -179,6 +179,7 @@ public class FrameLibrary
 		return ret;
 	}
 
+	
 	public ArrayList<Frame> filter(String name, int year, String researcher, String focus)
 	{
 		ArrayList<Frame> ret = new ArrayList<Frame>();
@@ -190,34 +191,19 @@ public class FrameLibrary
 				Frame frame = (Frame) frameList.get(i).clone();
 				String tempFYear = new String(Integer.toString(frame.year));
 
-				if ((!frame.name.toLowerCase().contains(name.toLowerCase()) && !name.isEmpty()) || (!tempFYear.contains(Integer.toString(year)) && year >= 0))
-					continue; //Skip if the name or year doesn't match
-				
-				boolean invalid = false; //kludge
-				for (int j = 0; j < frame.researchers.size() && !researcher.isEmpty(); j++)
-				{
-					String rsc = frame.researchers.get(j).toLowerCase();
-					if (!rsc.contains(researcher.toLowerCase()))
-					{
-						invalid = true;
-						break;
-					}
-				}
-				if (invalid)
+				if (!frame.name.toLowerCase().contains(name.toLowerCase()) && !name.isEmpty())
 					continue;
 				
-				for (int j = 0; j < frame.foci.size() && !focus.isEmpty(); j++)
-				{
-					String fcs = frame.foci.get(j).toLowerCase();
-					if (!fcs.contains(focus.toLowerCase()))
-					{
-						invalid = true;
-						break;
-					}
-				}
+				if (!tempFYear.contains(Integer.toString(year)) && year > 0)
+					continue;
+			
+				if (!frame.getFoci().toLowerCase().contains(focus.toLowerCase()) && !focus.isEmpty())
+					continue;
 				
-				if (!invalid)
-					ret.add(frame);
+				if (!frame.getResearchers().toLowerCase().contains(researcher.toLowerCase()) && !researcher.isEmpty())
+					continue;
+				
+				ret.add(frame);
 			}
 		}
 		catch (CloneNotSupportedException ex)

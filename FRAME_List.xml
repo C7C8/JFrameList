@@ -10,7 +10,7 @@ http://creativecommons.org/licenses/by-sa/4.0/. -->
 				<rsc>Jameel</rsc>
 			</rsc>
 		</researchers>
-		<year>0000</year>
+		<year>1</year>
 		<focus>
 			<fcs>Learn to FRAME</fcs>
 		</focus>
@@ -23,7 +23,7 @@ http://creativecommons.org/licenses/by-sa/4.0/. -->
 				<rsc>Milner</rsc>
 			</rsc>
 		</researchers>
-		<year>0000</year>
+		<year>1</year>
 		<focus>
 			<fcs>Everything</fcs>
 		</focus>
@@ -35,7 +35,7 @@ http://creativecommons.org/licenses/by-sa/4.0/. -->
 				<rsc>Joyce Ma</rsc>
 			</rsc>
 		</researchers>
-		<year>0000</year>
+		<year>1</year>
 		<focus>
 			<fcs>Learn to FRAME</fcs>
 		</focus>
@@ -85,7 +85,7 @@ http://creativecommons.org/licenses/by-sa/4.0/. -->
 				<rsc>Diamond</rsc>
 			</rsc>
 		</researchers>
-		<year>0000</year>
+		<year>1</year>
 		<focus>
 			<fcs>Localization of Function</fcs>
 		</focus>
@@ -95,7 +95,7 @@ http://creativecommons.org/licenses/by-sa/4.0/. -->
 		<researchers>
 			<rsc>Kirch</rsc>
 		</researchers>
-		<year>0000</year>
+		<year>1</year>
 		<focus>
 			<fcs>Neurotransmission</fcs>
 		</focus>
@@ -105,7 +105,7 @@ http://creativecommons.org/licenses/by-sa/4.0/. -->
 		<researchers>
 			<rsc>Figueiro</rsc>
 		</researchers>
-		<year>0000</year>
+		<year>1</year>
 		<focus>
 			<fcs>Neurotransmission</fcs>
 		</focus>
@@ -115,7 +115,7 @@ http://creativecommons.org/licenses/by-sa/4.0/. -->
 		<researchers>
 			<rsc>Caspi</rsc>
 		</researchers>
-		<year>0000</year>
+		<year>1</year>
 		<focus>
 			<fcs>Genetics</fcs>
 		</focus>
@@ -125,7 +125,7 @@ http://creativecommons.org/licenses/by-sa/4.0/. -->
 		<researchers>
 			<rsc>Caspi</rsc>
 		</researchers>
-		<year>0000</year>
+		<year>1</year>
 		<focus>
 			<fcs>Genetics</fcs>
 		</focus>
@@ -137,7 +137,7 @@ http://creativecommons.org/licenses/by-sa/4.0/. -->
 			<rsc>Aron</rsc>
 			<rsc>Brown</rsc>
 		</researchers>
-		<year>0000</year>
+		<year>1</year>
 		<focus>
 			<fcs>Imaging</fcs>
 		</focus>
@@ -153,13 +153,13 @@ http://creativecommons.org/licenses/by-sa/4.0/. -->
 		</focus>
 	</frame>
 	<frame>
-		<name>The Standford Prison Study</name>
+		<name>The Stanford Prison Study</name>
 		<researchers>
 			<rsc>Zimbardo</rsc>
 		</researchers>
 		<year>1973</year>
 		<focus>
-			<fcs>SIT</fcs>
+			<fcs>Social Identity Theory</fcs>
 		</focus>
 	</frame>
 	<frame>
