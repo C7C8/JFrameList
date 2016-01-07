@@ -16,6 +16,14 @@ public class FrameLibrary
 {
 	protected ArrayList<Frame> frameList = new ArrayList<Frame>();
 
+	public ArrayList<String> getNames()
+	{
+		ArrayList<String> ret = new ArrayList<String>();
+		for (int i = 0; i < frameList.size(); i++)
+			ret.add(frameList.get(i).name);
+		return ret;
+	}
+
 	public void parse(String filename)
 	{
 		try

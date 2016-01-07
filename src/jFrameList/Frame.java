@@ -10,6 +10,21 @@ public class Frame implements Cloneable
 	public ArrayList<String> researchers = new ArrayList<String>();
 	public ArrayList<String> foci = new ArrayList<String>();
 	
+	public String getResearchers()
+	{
+		String ret = new String(researchers.get(0));
+		for (int i = 1; i < researchers.size(); i++)
+			ret.concat(", " + researchers.get(i));
+		return ret;
+	}
+	public String getFoci()
+	{
+		String ret = new String(foci.get(0));
+		for (int i = 1; i < foci.size(); i++)
+			ret.concat(", " + researchers.get(i));
+		return ret;
+	}
+	
 	public Object clone() throws CloneNotSupportedException
 	{
 		Frame cloned = (Frame) super.clone();
