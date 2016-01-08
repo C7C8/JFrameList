@@ -1,23 +1,16 @@
 package jFrameList;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import nu.xom.*;
 
 public class FrameLibrary
 {
 	protected ArrayList<Frame> frameList = new ArrayList<Frame>();
 
 	public ArrayList<String> getNames()
-	{
+	{	
 		ArrayList<String> ret = new ArrayList<String>();
 		for (int i = 0; i < frameList.size(); i++)
 			ret.add(frameList.get(i).name);
@@ -28,41 +21,29 @@ public class FrameLibrary
 	{
 		try
 		{
-			File fXMLFile = new File(filename);
-			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-			Document doc = dBuilder.parse(fXMLFile);
-			doc.getDocumentElement().normalize();
-
-			NodeList frames = doc.getElementsByTagName("frame");
-
-			//UGGGGGHHHHH
-			for (int frameNum = 0; frameNum < frames.getLength(); frameNum++)
+			File file = new File(filename);
+			Builder parser = new Builder();
+			Document doc = parser.build(file);
+			Element root = doc.getRootElement();
+			Elements frames = root.getChildElements();
+			
+			for (int frameNum = 0; frameNum < root.getChildElements().size(); frameNum++)
 			{
-				Node nFrame = frames.item(frameNum);
-				if (nFrame.getNodeType() == Node.ELEMENT_NODE)
-				{
-					Element eFrame = (Element) nFrame;
-					Frame frame = new Frame();
-					frame.name = eFrame.getElementsByTagName("name").item(0).getTextContent();
-					frame.year = Integer.parseInt(eFrame.getElementsByTagName("year").item(0).getTextContent());
-
-					NodeList researchers = eFrame.getElementsByTagName("rsc");
-					for (int i = 0; i < researchers.getLength() - 1; i++) //-1 because NodeLists don't make sense.
-						frame.researchers.add(researchers.item(i).getTextContent().trim());
-					
-					
-					NodeList foci = eFrame.getElementsByTagName("fcs");
-					for (int i = 0; i < foci.getLength(); i++)
-						frame.foci.add(foci.item(i).getTextContent());
-					
-					frameList.add(frame);
-				}
+				Frame newFrame = new Frame();
+				Element frame = frames.get(frameNum);
+				newFrame.name = frame.getFirstChildElement("name").getValue();
+				newFrame.year = Integer.parseInt(frame.getFirstChildElement("year").getValue());
+				
+				Elements researchers = frame.getFirstChildElement("researchers").getChildElements();
+				for (int i = 0; i < researchers.size(); i++)
+					newFrame.researchers.add(researchers.get(i).getValue());
+				
+				Elements foci = frame.getFirstChildElement("focus").getChildElements();
+				for (int i = 0; i < foci.size(); i++)
+					newFrame.foci.add(foci.get(i).getValue());
+				
+				frameList.add(newFrame);
 			}
-		}
-		catch (FileNotFoundException ex)
-		{
-			System.out.println("Couldn't find file " + filename + "!");
 		}
 		catch (Exception ex)
 		{
