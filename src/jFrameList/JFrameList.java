@@ -15,6 +15,11 @@ import javax.swing.JButton;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
+import java.awt.TextArea;
+import java.awt.Font;
+import javax.swing.ImageIcon;
+import javax.swing.JTextPane;
+import javax.swing.UIManager;
 
 public class JFrameList
 {
@@ -24,13 +29,14 @@ public class JFrameList
 	private JTextField yearField;
 	private JTextField focusField;
 	private JTextField researcherField;
-	private JTextField nameBox;
 	private JTextField yearBox;
 	private JTextField fociBox;
 	private JTextField researcherBox;
 	List list; //I probably shouldn't do this.
 	
 	private FrameLibrary frameList;
+	private TextArea nameBox;
+	private JLabel lblSourecLogoContrast;
 
 	/**
 	 * Launch the application.
@@ -83,40 +89,28 @@ public class JFrameList
 		frmJframelist.getContentPane().add(panel, BorderLayout.CENTER);
 		panel.setLayout(null);
 		
-		JLabel lblName = new JLabel("Name");
-		lblName.setBounds(556, 2, 41, 15);
-		panel.add(lblName);
-		
 		nameField = new JTextField();
-		nameField.setBounds(596, 0, 150, 19);
+		nameField.setToolTipText("Name - the name of the study.");
+		nameField.setBounds(309, 266, 150, 19);
 		panel.add(nameField);
 		nameField.setColumns(10);
 		
-		JLabel lblYear = new JLabel("Year");
-		lblYear.setBounds(556, 33, 32, 15);
-		panel.add(lblYear);
-		
 		yearField = new JTextField();
-		yearField.setBounds(596, 31, 70, 19);
+		yearField.setToolTipText("Year - when the study was conducted. 1 for unknown year.");
+		yearField.setBounds(309, 230, 70, 19);
 		panel.add(yearField);
 		yearField.setColumns(10);
 		
-		JLabel lblResearcher = new JLabel("Researcher");
-		lblResearcher.setBounds(510, 93, 81, 15);
-		panel.add(lblResearcher);
-		
 		focusField = new JTextField();
-		focusField.setBounds(596, 58, 150, 19);
+		focusField.setToolTipText("Focus - what a study focuses on (e.g. Social Identity Theory)");
+		focusField.setBounds(208, 266, 89, 19);
 		panel.add(focusField);
 		focusField.setColumns(10);
 		
-		JLabel lblFocus = new JLabel("Focus");
-		lblFocus.setBounds(550, 59, 41, 17);
-		panel.add(lblFocus);
-		
 		researcherField = new JTextField();
+		researcherField.setToolTipText("Researcher - who conducted the study.");
 		researcherField.setColumns(10);
-		researcherField.setBounds(596, 91, 150, 19);
+		researcherField.setBounds(208, 230, 89, 19);
 		panel.add(researcherField);
 		
 		JButton btnSearch = new JButton("Search");
@@ -139,50 +133,34 @@ public class JFrameList
 					list.add(results.get(i).name);
 			}
 		});
-		btnSearch.setBounds(629, 122, 117, 25);
+		btnSearch.setBounds(208, 297, 117, 25);
 		panel.add(btnSearch);
 		
-		JLabel lblNnameme = new JLabel("Results");
-		lblNnameme.setBounds(334, 2, 70, 15);
-		panel.add(lblNnameme);
-		
-		JLabel lblName_1 = new JLabel("Name");
-		lblName_1.setBounds(201, 33, 70, 15);
-		panel.add(lblName_1);
-		
-		nameBox = new JTextField();
-		nameBox.setEditable(false);
-		nameBox.setBounds(250, 31, 288, 19);
-		panel.add(nameBox);
-		nameBox.setColumns(10);
-		
-		JLabel lblYear_1 = new JLabel("Year");
-		lblYear_1.setBounds(201, 60, 70, 15);
-		panel.add(lblYear_1);
+		JLabel lblStudyDetails = new JLabel("Study Details");
+		lblStudyDetails.setBounds(334, 0, 172, 15);
+		panel.add(lblStudyDetails);
 		
 		yearBox = new JTextField();
+		yearBox.setToolTipText("Year - when the selected study was conducted.");
+		yearBox.setText("Year");
 		yearBox.setEditable(false);
-		yearBox.setBounds(238, 58, 52, 19);
+		yearBox.setBounds(524, 47, 52, 19);
 		panel.add(yearBox);
 		yearBox.setColumns(10);
 		
-		JLabel lblFocus_1 = new JLabel("Foci");
-		lblFocus_1.setBounds(201, 93, 70, 15);
-		panel.add(lblFocus_1);
-		
 		fociBox = new JTextField();
+		fociBox.setToolTipText("Focus - what the selected study focused on (e.g. culture).");
+		fociBox.setText("Focus");
 		fociBox.setEditable(false);
-		fociBox.setBounds(238, 91, 166, 19);
+		fociBox.setBounds(208, 90, 310, 19);
 		panel.add(fociBox);
 		fociBox.setColumns(10);
 		
-		JLabel lblResearchers = new JLabel("Researchers");
-		lblResearchers.setBounds(201, 122, 89, 15);
-		panel.add(lblResearchers);
-		
 		researcherBox = new JTextField();
+		researcherBox.setToolTipText("Researchers - who conducted the selected study.");
+		researcherBox.setText("Researchers");
 		researcherBox.setEditable(false);
-		researcherBox.setBounds(290, 120, 248, 19);
+		researcherBox.setBounds(524, 16, 234, 19);
 		panel.add(researcherBox);
 		researcherBox.setColumns(10);
 		
@@ -204,6 +182,43 @@ public class JFrameList
 		
 		list.setBounds(0, 0, 199, 334);
 		panel.add(list);
+		
+		nameBox = new TextArea();
+		nameBox.setText("Name");
+		nameBox.setFont(new Font("Dialog", Font.PLAIN, 10));
+		nameBox.setEditable(false);
+		nameBox.setBounds(208, 16, 310, 70);
+		panel.add(nameBox);
+		
+		JLabel lblResearcher = new JLabel("Researcher");
+		lblResearcher.setLabelFor(researcherField);
+		lblResearcher.setBounds(208, 214, 89, 15);
+		panel.add(lblResearcher);
+		
+		JLabel lblYear = new JLabel("Year");
+		lblYear.setLabelFor(yearField);
+		lblYear.setBounds(309, 214, 70, 15);
+		panel.add(lblYear);
+		
+		JLabel lblFocus = new JLabel("Focus");
+		lblFocus.setBounds(208, 252, 70, 15);
+		panel.add(lblFocus);
+		
+		JLabel lblName = new JLabel("Name");
+		lblName.setBounds(309, 252, 70, 15);
+		panel.add(lblName);
+		
+		lblSourecLogoContrast = new JLabel("");
+		lblSourecLogoContrast.setIcon(new ImageIcon("/home/sourec/Documents/GIMP Work/Sourec Atom Contrast Tiny Transparent.png"));
+		lblSourecLogoContrast.setBounds(710, 279, 48, 55);
+		panel.add(lblSourecLogoContrast);
+		
+		JTextPane txtpnSelectAStudy = new JTextPane();
+		txtpnSelectAStudy.setBackground(UIManager.getColor("window"));
+		txtpnSelectAStudy.setEditable(false);
+		txtpnSelectAStudy.setText("Select a study on the left to view more details. Refine your search by entering search terms and clicking \"Search\".");
+		txtpnSelectAStudy.setBounds(208, 121, 172, 81);
+		panel.add(txtpnSelectAStudy);
 		for (int i = 0; i < fNames.size(); i++)
 			list.add(fNames.get(i));
 	}
