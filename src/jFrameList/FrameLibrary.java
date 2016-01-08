@@ -48,8 +48,8 @@ public class FrameLibrary
 					frame.year = Integer.parseInt(eFrame.getElementsByTagName("year").item(0).getTextContent());
 
 					NodeList researchers = eFrame.getElementsByTagName("rsc");
-					for (int i = 0; i < researchers.getLength(); i++)
-						frame.researchers.add(researchers.item(i).getTextContent());
+					for (int i = 0; i < researchers.getLength() - 1; i++) //-1 because NodeLists don't make sense.
+						frame.researchers.add(researchers.item(i).getTextContent().trim());
 					
 					
 					NodeList foci = eFrame.getElementsByTagName("fcs");
