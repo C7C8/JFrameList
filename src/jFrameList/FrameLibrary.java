@@ -1,6 +1,6 @@
 package jFrameList;
 
-import java.io.File;
+import java.io.InputStream;
 import java.util.ArrayList;
 
 import nu.xom.*;
@@ -17,11 +17,11 @@ public class FrameLibrary
 		return ret;
 	}
 
-	public void parse(String filename)
+	public void parse()
 	{
 		try
 		{
-			File file = new File(filename);
+			InputStream file = getClass().getResourceAsStream("/jFrameList/FRAME_List.xml");
 			Builder parser = new Builder();
 			Document doc = parser.build(file);
 			Element root = doc.getRootElement();

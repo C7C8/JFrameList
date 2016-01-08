@@ -66,7 +66,7 @@ public class JFrameList
 	public JFrameList()
 	{
 		frameList = new FrameLibrary();
-		frameList.parse("FRAME_List.xml");
+		frameList.parse();
 		initialize();
 	}
 
@@ -209,7 +209,7 @@ public class JFrameList
 		panel.add(lblName);
 		
 		lblSourecLogoContrast = new JLabel("");
-		lblSourecLogoContrast.setIcon(new ImageIcon("/home/sourec/Documents/GIMP Work/Sourec Atom Contrast Tiny Transparent.png"));
+		lblSourecLogoContrast.setIcon(new ImageIcon(JFrameList.class.getResource("/jFrameList/s_atom.png")));
 		lblSourecLogoContrast.setBounds(710, 279, 48, 55);
 		panel.add(lblSourecLogoContrast);
 		
