@@ -9,14 +9,6 @@ public class FrameLibrary
 {
 	protected ArrayList<Frame> frameList = new ArrayList<Frame>();
 
-	public ArrayList<String> getNames()
-	{	
-		ArrayList<String> ret = new ArrayList<String>();
-		for (int i = 0; i < frameList.size(); i++)
-			ret.add(frameList.get(i).name);
-		return ret;
-	}
-
 	public void parse()
 	{
 		try
@@ -33,6 +25,7 @@ public class FrameLibrary
 				Element frame = frames.get(frameNum);
 				newFrame.name = frame.getFirstChildElement("name").getValue();
 				newFrame.year = Integer.parseInt(frame.getFirstChildElement("year").getValue());
+				newFrame.abs = frame.getFirstChildElement("abstract").getValue();
 				
 				Elements researchers = frame.getFirstChildElement("researchers").getChildElements();
 				for (int i = 0; i < researchers.size(); i++)
@@ -61,6 +54,14 @@ public class FrameLibrary
 		frameList.clear();
 	}
 
+	public ArrayList<String> getNames()
+	{	
+		ArrayList<String> ret = new ArrayList<String>();
+		for (int i = 0; i < frameList.size(); i++)
+			ret.add(frameList.get(i).name);
+		return ret;
+	}
+	
 	public ArrayList<Frame> searchName(String key)
 	{
 		ArrayList<Frame> ret = new ArrayList<Frame>();
@@ -160,7 +161,6 @@ public class FrameLibrary
 		return ret;
 	}
 
-	
 	public ArrayList<Frame> filter(String name, int year, String researcher, String focus)
 	{
 		ArrayList<Frame> ret = new ArrayList<Frame>();

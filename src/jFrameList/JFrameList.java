@@ -32,6 +32,7 @@ public class JFrameList
 	private JTextField yearBox;
 	private JTextField fociBox;
 	private JTextField researcherBox;
+	private TextArea absBox;
 	List list; //I probably shouldn't do this.
 	
 	private FrameLibrary frameList;
@@ -164,6 +165,12 @@ public class JFrameList
 		panel.add(researcherBox);
 		researcherBox.setColumns(10);
 		
+		absBox = new TextArea();
+		absBox.setText("Abstract");
+		absBox.setEditable(false);
+		absBox.setBounds(385, 115, 354, 147);
+		panel.add(absBox);
+		
 		list = new List();
 		list.addMouseListener(new MouseAdapter() 
 		{
@@ -177,10 +184,12 @@ public class JFrameList
 				yearBox.setText(Integer.toString(selection.year));
 				researcherBox.setText(selection.getResearchers());
 				fociBox.setText(selection.getFoci());
+				absBox.setText(selection.abs);
 				
 				nameBox.setCaretPosition(0);
 				researcherBox.setCaretPosition(0);
 				fociBox.setCaretPosition(0);
+				absBox.setCaretPosition(0);
 			}
 		});
 		
@@ -223,6 +232,7 @@ public class JFrameList
 		txtpnSelectAStudy.setText("Select a study on the left to view more details. Refine your search by entering search terms and clicking \"Search\".");
 		txtpnSelectAStudy.setBounds(208, 121, 172, 81);
 		panel.add(txtpnSelectAStudy);
+	
 		for (int i = 0; i < fNames.size(); i++)
 			list.add(fNames.get(i));
 	}

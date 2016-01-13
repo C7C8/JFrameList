@@ -9,6 +9,7 @@ public class Frame implements Cloneable
 	public int year;
 	public ArrayList<String> researchers = new ArrayList<String>();
 	public ArrayList<String> foci = new ArrayList<String>();
+	public String abs; //abstract is a keyword!
 	
 	public String getResearchers()
 	{
