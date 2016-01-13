@@ -177,6 +177,10 @@ public class JFrameList
 				yearBox.setText(Integer.toString(selection.year));
 				researcherBox.setText(selection.getResearchers());
 				fociBox.setText(selection.getFoci());
+				
+				nameBox.setCaretPosition(0);
+				researcherBox.setCaretPosition(0);
+				fociBox.setCaretPosition(0);
 			}
 		});
 		
