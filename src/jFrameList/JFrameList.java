@@ -166,6 +166,7 @@ public class JFrameList
 		researcherBox.setColumns(10);
 		
 		absBox = new TextArea();
+		absBox.setFont(new Font("Dialog", Font.PLAIN, 8));
 		absBox.setText("Abstract");
 		absBox.setEditable(false);
 		absBox.setBounds(385, 115, 354, 147);

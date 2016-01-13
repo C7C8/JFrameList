@@ -25,7 +25,8 @@ public class FrameLibrary
 				Element frame = frames.get(frameNum);
 				newFrame.name = frame.getFirstChildElement("name").getValue();
 				newFrame.year = Integer.parseInt(frame.getFirstChildElement("year").getValue());
-				newFrame.abs = frame.getFirstChildElement("abstract").getValue();
+				newFrame.abs = frame.getFirstChildElement("abstract").getValue().replaceAll("\t\t\t", "");
+				newFrame.abs = newFrame.abs.replaceFirst("\n", "");
 				
 				Elements researchers = frame.getFirstChildElement("researchers").getChildElements();
 				for (int i = 0; i < researchers.size(); i++)
