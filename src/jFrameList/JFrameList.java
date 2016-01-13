@@ -77,8 +77,9 @@ public class JFrameList
 	private void initialize()
 	{
 		frmJframelist = new JFrame();
+		frmJframelist.setResizable(false);
 		frmJframelist.setTitle("JFrameList");
-		frmJframelist.setBounds(100, 100, 760, 389);
+		frmJframelist.setBounds(100, 100, 780, 389);
 		frmJframelist.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmJframelist.getContentPane().setLayout(new BorderLayout(0, 0));
 		
