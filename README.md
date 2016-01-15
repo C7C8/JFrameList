@@ -14,9 +14,6 @@ open a new issue.
 This list is provided as a general roadmap, not a complete list of upcoming
 updates.
 
-* Add the ability to load data from server (likely by an XML file stored on
-    the gh-pages branch) such that new versions need not be downloaded for
-    updated data.
 * Clean up the GUI.
 
 ###Misc
