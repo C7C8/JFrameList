@@ -1,290 +1,765 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
-International License. To view a copy of this license, visit
-http://creativecommons.org/licenses/by-sa/4.0/. -->
 <FrameList>
 	<frame>
-		<name>H.M. Case Study</name>
+		<name>Loss of recent memory after bilateral hippocampal lesions</name>
 		<researchers>
-			<rsc>Scoville</rsc>
-			<rsc>Milner</rsc>
+			<rsc>Scoville, William Beecher</rsc>
+			<rsc>Milner, Brendad</rsc>
 		</researchers>
-		<year>1</year>
+		<year>1957</year>
 		<focus>
 			<fcs>Everything</fcs>
+			<fcs>Memory</fcs>
 		</focus>
+		<abstract>
+			In 1954 Scoville described a grave loss of recent memory
+			which he had observed as a sequel to bilateral medial
+			temporal lobe resection in one psychotic patient and one
+			patient with intractable seizures. In both cases the opera-
+			tions  had  been  radical  ones,  undertaken  only  when
+			more  conservative  forms  of  treatment  had  failed.  The
+			removals extended posteriorly along the mesial surface
+			of the temporal lobes for a distance of approximately 8
+			cm from the temporal tips and probably destroyed the
+			anterior two-thirds of the hippocampus and hippocam-
+			pal gyrus bilaterally, as well as the uncus and amygdala.
+			The  unexpected  and  persistent  memory  deÆcit  which
+			resulted seemed to us to merit further investigation. We
+			have  therefore  carried out  formal  memory and  intelli-
+			gence  testing  of  these  two  patients  and  also  of  eight
+			other patients who had undergone similar, but less rad-
+			ical, bilateral medial temporal lobe resections. The pres-
+			ent paper gives the results of these studies which point
+			to the importance of the hippocampal complex for nor-
+			mal memory function. Whenever the hippocampus and
+			hippocampal  gyrus  were  damaged  bilaterally  in  these
+			operations some memory deÆcit was found, but not oth-
+			erwise. We have chosen to report these Ændings in full,
+			partly for their theoretical signiÆcance, and partly as a
+			warning  to  others  of  the  risk  to  memory  involved  in bilateral
+			surgical lesions of the hippocampal region.
+		</abstract>
 	</frame>
 	<frame>
 		<name>Evolutionary Anorexia</name>
 		<researchers>
-			<rsc>Mont Missoula</rsc>
+			<rsc>Mrosovsky</rsc>
 		</researchers>
 		<year>2004</year>
 		<focus>
+			<fcs>Bilogical Level of Analysis</fcs>
 			<fcs>Evolutionary psychology</fcs>
 		</focus>
+		<abstract>STUDY NOT FOUND</abstract>
 	</frame>
 	<frame>
-		<name>PET evalutaion of bilingual language compensation following early childhood brain damage.</name>
+		<name>PET evalutaion of bilingual language compensation following early childhood brain damage</name>
 		<researchers>
-			<rsc>Tierney</rsc>
+			<rsc>Tierney, Michael C</rsc>
+			<rsc>Varga, Mary</rsc>
+			<rsc>Hosey, Lara</rsc>
+			<rsc>Grafman, Jordan</rsc>
+			<rsc>Braun, Allen</rsc>
 		</researchers>
 		<year>2001</year>
 		<focus>
+			<fcs>Biological Level of Analysis</fcs>
 			<fcs>Localization of Function</fcs>
 		</focus>
+		<abstract>
+			We report a positron emission tomography (PET) study in a
+			37-year-old, right handed, bilingual (English and American Sign
+			Language) male with left frontal lobe damage, without evidence of
+			language or general intellectual dysfunction. A brain MRI scan
+			demonstrated an atrophic lesion of the left dorsolateral prefrontal,
+			orbital, and opercular cortices extending from the frontal pole to
+			precentral gyrus and including parts of anterior cingulate cortex,
+			due to an probable infantile encephalitis. H215O PET scans found
+			evidence of increased right hemisphere activity compared to normal
+			controls during spontaneous generation of narrative in both English
+			and ASL. Neuropsychological data were within normal limits with the
+			exception of visuospatial function. The results suggest the possibility
+			that plasticity, unmasking of neural pathways, and or other
+			adaptations of language function in the right hemisphere may have
+			occurred, and are discussed with regard to the crowding hypothesis.
+		</abstract>
 	</frame>
 	<frame>
-		<name>Changes in the brain after juggling training</name>
+		<name>Neuroplasticity: Changes in grey matter induced by training</name>
 		<researchers>
-			<rsc>Draganski</rsc>
+			<rsc>Draganski, Bogdan</rsc>
+			<rsc>Gaser, Christian</rsc>
+			<rsc>Bogdahn, Ulrich</rsc>
+			<rsc>May, Arne</rsc>
 		</researchers>
 		<year>2004</year>
 		<focus>
+			<fcs>Biological Level of Analysis</fcs>
 			<fcs>Imaging technology</fcs>
-		</focus>
-	</frame>
-	<frame>
-		<name>More Experience = Bigger Brain</name>
-		<researchers>
-			<rsc>Rosenwig</rsc>
-			<rsc>Bennet</rsc>
-			<rsc>Diamond</rsc>
-		</researchers>
-		<year>1</year>
-		<focus>
 			<fcs>Localization of Function</fcs>
 		</focus>
+		<abstract>ABSTRACT NOT FOUND</abstract>
 	</frame>
 	<frame>
-		<name>A Social 'Viagra' for shy people?</name>
+		<name>Brain changes in response to experience</name>
 		<researchers>
-			<rsc>Kirch</rsc>
+			<rsc>Rosenwig, Mark R</rsc>
+			<rsc>Bennet, Edward L</rsc>
+			<rsc>Diamond, Marian C</rsc>
 		</researchers>
-		<year>1</year>
+		<year>1972</year>
 		<focus>
+			<fcs>Biological Level of Analysis</fcs>
+			<fcs>Localization of Function</fcs>
+		</focus>
+		<abstract>
+			Reports a study in which rats placed in enriched or
+			impoverished environments for 4-10 wk. differed in brain anatomy and
+			chemistry. Ss with enriched experience had heavier and thicker
+			cerebral cortexes, greater total activity of acetylcholinesterase
+			but less activity per unit of tissue weight, greater activity of
+			cholinesterase, more glial cells, larger cell bodies and nuclei,
+			more dendritic spines, larger synaptic junctions, and increased
+			RNA/DNA ratios. The greatest differences were found in the occipital
+			cortex. It is suggested that daily 2-hr enrichment periods may be
+			effective if the rat is stimulated to interact with objects in the
+			environment. Changes were not caused by variations in amount of
+			handling, stress, or maturation rate.
+		</abstract>
+	</frame>
+	<frame>
+		<name>Oxytocin modulates neural circuitry for social cognition and fear in humans</name>
+		<researchers>
+			<rsc>Kirch, Peter</rsc>
+			<rsc>Esslinger, Christine</rsc>
+			<rsc>Chen, Quiang</rsc>
+			<rsc>Mier, Daniela</rsc>
+			<rsc>Lis, Stefanie</rsc>
+			<rsc>Siddhanti, Sarina</rsc>
+			<rsc>Gruppe, Harald</rsc>
+			<rsc>Mattay, Venkata S.</rsc>
+			<rsc>Gallhofer, Bernd</rsc>
+			<rsc>Meyer-Lindenberg, Andreas</rsc>
+		</researchers>
+		<year>2005</year>
+		<focus>
+			<fcs>Biological Level of Analysis</fcs>
 			<fcs>Neurotransmission</fcs>
 		</focus>
+		<abstract>
+			In non-human mammals, the neuropeptide oxytocin is a key
+			mediator of complex emotional and social behaviors, including
+			attachment, social recognition, and aggression. Oxytocin reduces
+			anxiety and impacts on fear conditioning and extinction. Recently,
+			oxytocin administration in humans was shown to increase trust,
+			suggesting involvement of the amygdala, a central component of the
+			neurocircuitry of fear and social cognition that has been linked to
+			trust and highly expresses oxytocin receptors in many mammals.
+			However, no human data on the effects of this peptide on brain
+			function were available. Here, we show that human amygdala function
+			is strongly modulated by oxytocin. We used functional magnetic
+			resonance imaging to image amygdala activation by fear-inducing
+			visual stimuli in 15 healthy males after double-blind crossover
+			intranasal application of placebo or oxytocin. Compared with
+			placebo, oxytocin potently reduced activation of the amygdala and
+			reduced coupling of the amygdala to brainstem regions implicated in
+			autonomic and behavioral manifestations of fear. Our results
+			indicate a neural mechanism for the effects of oxytocin in social
+			cognition in the human brain and provide a methodology and rationale
+			for exploring therapeutic strategies in disorders in which abnormal
+			amygdala function has been implicated, such as social phobia or
+			autism.
+		</abstract>
 	</frame>
 	<frame>
 		<name>Light from self luminous tablet computers can affect melatonin</name>
 		<researchers>
-			<rsc>Figueiro</rsc>
+			<rsc>Figuerio, Mariana G</rsc>
+			<rsc>Wood, Brittany</rsc>
+			<rsc>Rea, Mark S</rsc>
+			<rsc>Plitnick, Barbara</rsc>
 		</researchers>
-		<year>1</year>
+		<year>2012</year>
 		<focus>
+			<fcs>Biological Level of Analysis</fcs>
 			<fcs>Neurotransmission</fcs>
 		</focus>
+		<abstract>
+			Exposure to light from self-luminous displays may be linked to
+			increased risk for sleep disorders because these devices emit
+			optical radiation at short wavelengths, close to the peak
+			sensitivity of melatonin suppression. Thirteen participants
+			experienced three experimental conditions in a within-subjects
+			design to investigate the impact of self-luminous tablet displays on
+			nocturnal melatonin suppression: 1) tablets-only set to the highest
+			brightness, 2) tablets viewed through clear-lens goggles equipped
+			with blue light-emitting diodes that provided 40 lux of 470-nm light
+			at the cornea, and 3) tablets viewed through orange-tinted glasses
+			(dark control; optical radiation &lt;525 nm ≈ 0). Melatonin
+			suppressions after 1-h and 2-h exposures to tablets viewed with the
+			blue light were significantly greater than zero. Suppression levels
+			after 1-h exposure to the tablets-only were not statistically
+			different than zero; however, this difference reached significance
+			after 2 h. Based on these results, display manufacturers can
+			determine how their products will affect melatonin levels and use
+			model predictions to tune the spectral power distribution of
+			self-luminous devices to increase or to decrease stimulation to the
+			circadian system.
+		</abstract>
 	</frame>
 	<frame>
-		<name>The "Warrior Gene" genes affecting serotonin affect behavior</name>
+		<name>Role of genotype in the cycle of violence in maltreated children</name>
 		<researchers>
-			<rsc>Caspi</rsc>
+			<rsc>Caspi, Avshalom</rsc>
+			<rsc>McClay, Joseph</rsc>
+			<rsc>Moffitt, Terrie E</rsc>
+			<rsc>Mill, Jonathan</rsc>
+			<rsc>Martin, Judy</rsc>
+			<rsc>Craig, Ian W</rsc>
+			<rsc>Taylor, Alan</rsc>
+			<rsc>Poulton, Richie</rsc>
 		</researchers>
-		<year>1</year>
+		<year>2002</year>
 		<focus>
+			<fcs>Biological Level of Analysis</fcs>
 			<fcs>Genetics</fcs>
 		</focus>
+		<abstract>
+			We studied a large sample of male children from birth to
+			adulthood to determine why some children who are maltreated grow up
+			to develop antisocial behavior, whereas others do not. A functional
+			polymorphism in the gene encoding the neurotransmitter-metabolizing
+			enzyme monoamine oxidase A (MAOA) was found to moderate the effect
+			of maltreatment. Maltreated children with a genotype conferring high
+			levels of MAOA expression were less likely to develop antisocial
+			problems. These findings may partly explain why not all victims of
+			maltreatment grow up to victimize others, and they provide
+			epidemiological evidence that genotypes can moderate children's
+			sensitivity to environmental insults.
+		</abstract>
 	</frame>
 	<frame>
-		<name>The role genes and environment play on physiology</name>
+		<name>Influence of life stress on depression: moderation by a polymorphism of the 5-HTT gene</name>
 		<researchers>
-			<rsc>Caspi</rsc>
+			<rsc>Caspi, Avshalom</rsc>
+			<rsc>Sugden, K</rsc>
+			<rsc>Moffitt, TE</rsc>
+			<rsc>Taylor, A</rsc>
+			<rsc>Craig, IW</rsc>
+			<rsc>Harrington, H</rsc>
+			<rsc>McClay, J</rsc>
+			<rsc>Mill, J</rsc>
+			<rsc>Martin, J</rsc>
+			<rsc>Braithwaite, A</rsc>
+			<rsc>Poulton, R</rsc>
 		</researchers>
-		<year>1</year>
+		<year>2003</year>
 		<focus>
+			<fcs>Biological Level of Analysis</fcs>
 			<fcs>Genetics</fcs>
+			<fcs>Depression</fcs>
+			<fcs>Abnormal psychology</fcs>
 		</focus>
+		<abstract>
+			In a prospective-longitudinal study of a representative birth
+			cohort, we tested why stressful experiences lead to depression in
+			some people but not in others. A functional polymorphism in the
+			promoter region of the serotonin transporter (5-HT T) gene was found
+			to moderate the influence of stressful life events on depression.
+			Individuals with one or two copies of the short allele of the 5-HT T
+			promoter polymorphism exhibited more depressive symptoms,
+			diagnosable depression, and suicidality in relation to stressful
+			life events than individuals homozygous for the long allele. This
+			epidemiological study thus provides evidence of a
+			gene-by-environment interaction, in which an individual's response
+			to environmental insults is moderated by his or her genetic makeup.
+		</abstract>
 	</frame>
 	<frame>
-		<name>Romantic love study</name>
+		<name>Romantic love: a mammalian brain system for mate choice</name>
 		<researchers>
-			<rsc>Fisher</rsc>
-			<rsc>Aron</rsc>
-			<rsc>Brown</rsc>
+			<rsc>Fisher, Helen E</rsc>
+			<rsc>Aron, Arthur</rsc>
+			<rsc>Brown, Lucy L</rsc>
 		</researchers>
-		<year>1</year>
+		<year>2006</year>
 		<focus>
+			<fcs>Biological Level of Analysis</fcs>
 			<fcs>Imaging</fcs>
+			<fcs>Localization of Function</fcs>
 		</focus>
+		<abstract>
+			Mammals and birds regularly express mate preferences and make
+			mate choices. Data on mate choice among mammals suggest that this
+			behavioural ‘attraction system’ is associated with dopaminergic
+			reward pathways in the brain. It has been proposed that intense
+			romantic love, a human cross-cultural universal, is a developed form
+			of this attraction system. To begin to determine the neural
+			mechanisms associated with romantic attraction in humans, we used
+			functional magnetic resonance imaging (fMRI) to study 17 people who
+			were intensely ‘in love’. Activation specific to the beloved
+			occurred in the brainstem right ventral tegmental area and right
+			postero-dorsal body of the caudate nucleus. These and other results
+			suggest that dopaminergic reward and motivation pathways contribute
+			to aspects of romantic love. We also used fMRI to study 15 men and
+			women who had just been rejected in love. Preliminary analysis
+			showed activity specific to the beloved in related regions of the
+			reward system associated with monetary gambling for uncertain large
+			gains and losses, and in regions of the lateral orbitofrontal cortex
+			 associated with theory of mind, obsessive/compulsive behaviours and
+			controlling anger. These data contribute to our view that romantic
+			love is one of the three primary brain systems that evolved in
+			avian and mammalian species to direct reproduction. The sex drive
+			evolved to motivate individuals to seek a range of mating partners;
+			attraction evolved to motivate individuals to prefer and pursue
+			specific partners; and attachment evolved to motivate individuals to
+			remain together long enough to complete species-specific parenting
+			duties. These three behavioural repertoires appear to be based on
+			brain systems that are largely distinct yet interrelated, and they
+			interact in specific ways to orchestrate reproduction, using both
+			hormones and monoamines. Romantic attraction in humans and its
+			antecedent in other mammalian species play a primary role: this
+			neural mechanism motivates individuals to focus their courtship
+			energy on specific others, thereby conserving valuable time and
+			metabolic energy, and facilitating mate choice.
+		</abstract>
 	</frame>
 	<frame>
-		<name>The minimal group paradigm</name>
+		<name>Social categorization and intergroup behavior [The minimal group paradigm]</name>
 		<researchers>
-			<rsc>Tajfel</rsc>
+			<rsc>Tajfel, Henri</rsc>
+			<rsc>Billig, MG</rsc>
+			<rsc>Bundy, RP</rsc>
 		</researchers>
 		<year>1971</year>
 		<focus>
+			<fcs>Sociocultural Level of Analysis</fcs>
 			<fcs>Social Identity Theory</fcs>
 		</focus>
+		<abstract>
+			The aim of the studies was to assess the effects of social
+			categorization on intergroup behavior when, in the intergroup situation,
+			neither calculations of individual interest nor previously existing
+			attitudes of hostility could have been said to have determined
+			discriminative behavior against an outgroup. These conditions were
+			satisfied in the experimental design. In the first series of
+			experiements, it was found that the subjects favoured their own group in
+			the distribution of real rewards and penalties in a situation in which
+			nothing but the variable of fairly irrelevant classification
+			distinguished between the ingroup and the outgroup. In the second series
+			of experiements it was found that: 1) maximum joint profit independent
+			of group membership did not affect significanly the manner in which the
+			subjects divided real pecuniary rwards; 2) maximum profit for own group
+			rewards did affect the distribution of rewards; 3) the clearest effect
+			on the distribution of rewards was due to the subjects' attempt to
+			achieve a maximum difference between the ingroup and the outgroup even
+			at the price of sacrificing other 'objective' advantages. The design and
+			results of the study are theoretically discussed within the framework of
+			social norms and expectations and particiularly in relation to a
+			'generic' norm of outgroup behavior prevalent in some societies.
+		</abstract>
 	</frame>
 	<frame>
-		<name>The Stanford Prison Study</name>
+		<name>Interpersonal dynamics in a simulated prison</name>
 		<researchers>
-			<rsc>Zimbardo</rsc>
+			<rsc>Zimbardo, PG</rsc>
+			<rsc>Haney, Craig</rsc>
 		</researchers>
 		<year>1973</year>
 		<focus>
+			<fcs>Sociocultural Level of Analysis</fcs>
 			<fcs>Social Identity Theory</fcs>
 		</focus>
+		<abstract>ABSTRACT NOT FOUND</abstract>
 	</frame>
 	<frame>
 		<name>The five factor model of personality</name>
 		<researchers>
-			<rsc>McCrae</rsc>
-			<rsc>Costa</rsc>
+			<rsc>McCrae, RR</rsc>
+			<rsc>Costa, PT</rsc>
 		</researchers>
 		<year>1999</year>
 		<focus>
+			<fcs>Sociocultural Level of Analysis</fcs>
 			<fcs>Personality</fcs>
 		</focus>
+		<abstract>N/A</abstract>
 	</frame>
 	<frame>
-		<name>A demonstration of fundamental attribution error</name>
+		<name>The attribution of attitudes [FAE]</name>
 		<researchers>
-			<rsc>Jones</rsc>
-			<rsc>Harris</rsc>
+			<rsc>Jones, Edward E</rsc>
+			<rsc>Harris, Victor A</rsc>
 		</researchers>
 		<year>1967</year>
 		<focus>
+			<fcs>Sociocultural Level of Analysis</fcs>
 			<fcs>Attribution errors</fcs>
 		</focus>
+		<abstract>
+			Three experiments were conducted within the framework of
+			correspondent inference theory. In each of the experiments the
+			subjects were instructed to estimate the “true” attitude of a target
+			person after having either read or listened to a speech by him
+			expressing opinions on a controversial topic. Independent variables
+			included position of speech (pro, anti, or equivocal), choice of
+			position vs. assignment of position, and reference group of target
+			person. The major hypothesis (which was confirmed with varying
+			strength in all three experiments) was that choice would make a
+			greater difference when there was a low prior probability of
+			someone taking the position expressed in the speech. Other findings
+			of interest were: (1) a tendency to attribute attitude in line with
+			behavior, even in no-choice conditions; (2) increased
+			inter-individual variability in conditions where low probability
+			opinions were expressed in a constraining context; (3) that this
+			variability was partly a function of the subjects' own attitudes on
+			the issue; (4) that equivocation in no-choice conditions leads to
+			the attribution that the equivocator opposes the assigned position.
+			The main conclusion suggested is that perceivers do take account of
+			prior probabilities and situational constraints when attributing
+			private attitude, but perhaps do not weight these factors as heavily
+			as would be expected by a rational analysis.
+		</abstract>
 	</frame>
 	<frame>
 		<name>The chameleon effect: the perception-behavior link and social interaction</name>
 		<researchers>
-			<rsc>Chartrand</rsc>
-			<rsc>Bargh</rsc>
+			<rsc>Chartrand, Tanya L</rsc>
+			<rsc>Bargh, John A</rsc>
 		</researchers>
 		<year>1999</year>
 		<focus>
-			<fcs>Social activity</fcs>
+			<fcs>Sociocultural level of analysis</fcs>
 		</focus>
+		<abstract>
+			The chameleon effect refers to nonconscious mimicry of the
+			postures, mannerisms, facial expressions, and other behaviors of
+			one's interaction partners, such that one's behavior passively and
+			unintentionally changes to match that of others in one's current
+			social environment. The authors suggest that the mechanism involved
+			is the perception–behavior link, the recently documented finding
+			(e.g., J. A. Bargh, M. Chen, &amp; L Burrows, 1996) that the mere
+			perception of another's behavior automatically increases the
+			likelihood of engaging in that behavior oneself. Experiment 1 showed
+			that the motor behavior of participants unintentionally matched that
+			of strangers with whom they worked on a task. Experiment 2 had
+			confederates mimic the posture and movements of participants and
+			showed that mimicry facilitates the smoothness of interactions and
+			increases liking between interaction partners. Experiment 3 showed
+			that dispositionally empathic individuals exhibit the chameleon
+			effect to a greater extent than do other people.
+		</abstract>
 	</frame>
 	<frame>
-		<name>A demonstration of self-serving bias</name>
+		<name>Some determinates and consequences of the teacher's perception of causation</name>
 		<researchers>
-			<rsc>Johnson</rsc>
+			<rsc>Johnson, Thomas J</rsc>
+			<rsc>Feigenbaum, Rhoada</rsc>
+			<rsc>Weiby, Marcia</rsc>
 		</researchers>
 		<year>1964</year>
 		<focus>
+			<fcs>Sociocultural Level of Analysis</fcs>
 			<fcs>Attribution errors</fcs>
 		</focus>
+		<abstract>
+			In a simulated teaching situation 80 Ss taught arithmetic
+			concepts to fictitious "students" who then performed high
+			(Student A) or low (Student B) on a related task. The cause of this
+			performance was perceived as internal to the students; and positive
+			characteristics were attributed to A, negative to B. Sentiments
+			expressed for A were different from B. Ss were then informed that
+			A's "real" characteristics were positive and that B's
+			characteristics were either positive (equivalent to A) or negative.
+			They presented a second concept on which A again performed high and
+			B performed either high or low. When B's second performance was
+			high, Ss tended to perceive themselves as responsible for the
+			improvement, but perceived B as responsible when his performance
+			remained low. There was also less difference between the sentiments
+			expressed for A and B when B improved.
+		</abstract>
 	</frame>
 	<frame>
-		<name>A need for self-regard</name>
+		<name>Is there a universal need for positive self-regard?</name>
 		<researchers>
-			<rsc>Heine</rsc>
+			<rsc>Heine, Steven J</rsc>
+			<rsc>Lehman, Darrin R</rsc>
+			<rsc>Markus, Hazel Rose</rsc>
 		</researchers>
 		<year>1999</year>
 		<focus>
+			<fcs>Sociocultural Level of Analysis</fcs>
 			<fcs>Culture</fcs>
 		</focus>
+		<abstract>
+			It is assumed that people seek positive self-regard; that is,
+			they are motivated to possess, enhance, and maintain positive
+			self-views. The cross-cultural generalizability of such motivations
+			was addressed by examining Japanese culture. Anthropological,
+			sociological, and psychological analyses revealed that many elements
+			of Japanese culture are incongruent with such motivations. Moreover,
+			the empirical literature provides scant evidence for a need for
+			positive self-regard among Japanese and indicates that a
+			self-critical focus is more characteristic of Japanese. It is argued
+			that the need for self-regard must be culturally variant because the
+			constructions of self and regard themselves differ across cultures.
+			The need for positive self-regard, as it is currently conceptualized,
+			is not a universal, but rather is rooted in significant aspects of
+			North American culture. Conventional interpretations of positive
+			self-regard are too narrow to encompass the Japanese experience.
+		</abstract>
 	</frame>
 	<frame>
 		<name>On the belief that arthritis pain is related to the weather</name>
 		<researchers>
-			<rsc>Redelmeier</rsc>
+			<rsc>Redelmeier, DA</rsc>
+			<rsc>Tversky, A</rsc>
 		</researchers>
 		<year>1995</year>
 		<focus>
+			<fcs>Sociocultural level of analysis</fcs>
 			<fcs>Attribution errors</fcs>
 		</focus>
+		<abstract>
+			There is a widespread and strongly held belief that arthritis
+			pain is influenced by the weather; however, scientific studies have
+			found no consistent association. We hypothesize that this belief
+			results, in part at least, from people's tendency to perceive
+			patterns where none exist. We studied patients (n = 18) for more
+			than I year and found no statistically significant associations
+			between their arthritis pain and the weather conditions implicated
+			by each individual. We also found that college students (n = 97)
+			tend to perceive correlations between uncorrelated random sequences.
+			This departure of people's intuitive notion of association from the
+			statistical concept of association, we suggest, contributes to the
+			belief that arthritis pain is influenced by the weather.
+		</abstract>
 	</frame>
 	<frame>
-		<name>Social learning of aggression</name>
+		<name>Influence of models' reinforcement contingencies on the acquisition of the imitative responses</name>
 		<researchers>
-			<rsc>Bandura</rsc>
+			<rsc>Bandura, Albert</rsc>
 		</researchers>
 		<year>1965</year>
 		<focus>
+			<fcs>Sociocultural Level of Analysis</fcs>
 			<fcs>Social learning theory</fcs>
 		</focus>
+		<abstract>
+			In order to test the hypothesis that reinforcements
+			administered to a model influence the performance but not the
+			acquisition of matching responses, groups of children observed an
+			aggressive film-mediated model either rewarded, punished, or left
+			without consequences. A postexposure test revealed that response
+			consequences to the model had produced differential amounts of
+			imitative behavior. Children in the model-punished condition
+			performed signifcantly fewer matching responses than children in
+			both the model-rewarded and the no-consequences groups. Children in
+			all 3 treatment conditions were then offered attractive reinforcers
+			contingent on their reproducing the model's aggressive responses.
+			The introduction of positive incentives completely wiped out the
+			previously observed performance differences, revealing an
+			equivalent amount of learning among children in the model-rewarded,
+			model-punished, and the no-consequences conditions.
+		 </abstract>
 	</frame>
 	<frame>
-		<name>Selective imitation in 14-month-old infants</name>
+		<name>Rational imitation in preverbal infants</name>
 		<researchers>
-			<rsc>Gergely</rsc>
+			<rsc>Gergely, György</rsc>
+			<rsc>Bekkering, Harold</rsc>
+			<rsc>Király, Ildikó</rsc>
 		</researchers>
 		<year>2002</year>
 		<focus>
+			<fcs>Sociocultural Level of Analysis</fcs>
 			<fcs>Social learning theory</fcs>
 		</focus>
+		<abstract>
+			Babies may opt for a simpler way to turn on a light after
+			watching an adult do it. Here we show that if an adult demonstrates
+			a new way to execute a task to a group of infants aged 14 months,
+			the children will use this action to achieve the same goal only if
+			they consider it to be the most rational alternative. Our results
+			indicate that imitation of goal-directed action by preverbal infants
+			is a selective, interpretative process, rather than a simple
+			re-enactment of the means used by a demonstrator, as was previously
+			thought.
+		</abstract>
 	</frame>
 	<frame>
-		<name>Conformity in a non-ambiguous sitatuion</name>
+		<name>Opinions and Social Pressure</name>
 		<researchers>
-			<rsc>Asch</rsc>
+			<rsc>Asch, Solomon E</rsc>
 		</researchers>
-		<year>1951</year>
+		<year>1955</year>
 		<focus>
+			<fcs>Sociocultural Level of Analysis</fcs>
 			<fcs>Conformity</fcs>
 		</focus>
+		<abstract>N/A</abstract>
 	</frame>
 	<frame>
 		<name>Norm formation and conformity in an ambiguous situation</name>
 		<researchers>
-			<rsc>Sherif</rsc>
+			<rsc>Sherif, M</rsc>
 		</researchers>
 		<year>1935</year>
 		<focus>
+			<fcs>Sociocultural Level of Analysis</fcs>
 			<fcs>Conformity</fcs>
 		</focus>
+		<abstract>
+			This monograph reports a study of differential responses
+			determined by social factors when the individuals face the same
+			stimulus situation. Individuals of different cultures may react in
+			widely different ways to the same stimulus situation; these
+			differences are due to differences of subjective norms or frames of
+			reference. In the range experiments the subjects estimated the
+			extent of movement. When the objective scale was missing, the
+			individual built up his own reference point or norm. When these
+			individuals are later put in a group situation their points of
+			reference converge toward a common norm. Stereotypes, fads,
+			traditions, fashions, customs, and attitudes are psychologically
+			cases of establishment of socially determined norms and values
+			serving as frames of reference.
+		</abstract>
 	</frame>
 	<frame>
-		<name>A demonstration of the foot-in-the-door technique</name>
+		<name>Compliance without pressure: The foot-in-the-door technique</name>
 		<researchers>
-			<rsc>Freedman</rsc>
-			<rsc>Fraser</rsc>
+			<rsc>Freedman, Jonathan L</rsc>
+			<rsc>Fraser, Scott C</rsc>
 		</researchers>
 		<year>1966</year>
 		<focus>
+			<fcs>Sociocultural Level of Analysis</fcs>
 			<fcs>Compliance</fcs>
 		</focus>
+		<abstract>
+			2 experiments were conducted to test the proposition that once
+			someone has agreed to a small request he is more likely to comply
+			with a larger request. Exp. I demonstrated this effect when the same
+			person made both requests; Exp. II extended this to the situation in
+			which different people made the 2 requests. Several experimental
+			groups were run in an effort to explain these results, and possible
+			explanations are discussed.
+		</abstract>
 	</frame>
 	<frame>
-		<name>A demonstration of lowballing</name>
+		<name>Raising the price of agreement: Public commitment and the lowball compliance procedure</name>
 		<researchers>
-			<rsc>Burger</rsc>
-			<rsc>Cornelius</rsc>
+			<rsc>Burger, Jerry M</rsc>
+			<rsc>Cornelius, Tara</rsc>
 		</researchers>
 		<year>2003</year>
 		<focus>
+			<fcs>Sociocultural Level of Analysis</fcs>
 			<fcs>Compliance</fcs>
 		</focus>
+		<abstract>
+			Three studies examined the effect on compliance when a
+			requester raises the price of the request. Participants in
+			Experiment 1 were told that they would receive a free coffee mug for
+			donating money to a fundraiser but were interrupted before they
+			could respond and were told that the fundraisers were out of mugs.
+			These participants were less likely to donate money than a group
+			told nothing about the mugs. Experiments 2 and 3 compared this
+			interruption procedure with the lowball procedure, which also uses a
+			small-to-large price progression. The results from these two studies
+			indicate that allowing people to respond to the initial price is
+			critical for producing the lowball effect. Without a statement of
+			public commitment, the small-to-large price progression led to a
+			decrease rather than an increase in compliance relative to a control
+			group.
+		</abstract>
 	</frame>
 	<frame>
-		<name>Collectivists show lower levels of compliance than individualists when the foot-in-the-door technique is used</name>
+		<name>Consistency-based compliance across cultures</name>
 		<researchers>
-			<rsc>Petrova</rsc>
+			<rsc>Petrova, Petia K</rsc>
 		</researchers>
 		<year>2007</year>
 		<focus>
+			<fcs>Sociocultural Level of Analysis</fcs>
 			<fcs>Compliance</fcs>
 			<fcs>Culture</fcs>
 		</focus>
+		<abstract>
+			A field study investigated cross-cultural differences in
+			choice-congruent behavior and its impact on compliance. U.S. and
+			Asian participants received a request to complete an online survey
+			and a month later they were approached with a larger, related
+			request. Compliance with the initial request had a stronger impact
+			on subsequent compliance among the U.S. participants than among the
+			Asian participants. Despite their lower rate of compliance with the
+			initial request, the U.S. participants who chose to comply were more
+			likely than their Asian counterparts to agree to the subsequent
+			request. Further analyses revealed that this effect was driven by
+			differences in the individualistic/collectivistic orientation of the
+			participants from the two cultures. Within both cultures, the more
+			individualistic participants showed stronger consistency with their
+			earlier compliance than the more collectivistically oriented
+			participants.
+		</abstract>
 	</frame>
 	<frame>
-		<name>Bond and Smith conformity meta-analysis</name>
+		<name>Culture and conformity: A meta-analysis of studies using Asch's (1952b, 1956) line judgment task</name>
 		<researchers>
-			<rsc>Bond</rsc>
-			<rsc>Smith</rsc>
+			<rsc>Bond, Rod</rsc>
+			<rsc>Smith, Peter B</rsc>
 		</researchers>
 		<year>1996</year>
 		<focus>
+			<fcs>Sociocultural Level of Analysis</fcs>
 			<fcs>Conformity</fcs>
 			<fcs>Culture</fcs>
 		</focus>
+		<abstract>
+			A meta-analysis of conformity studies using an Asch-type line
+			judgment task (1952, 1956) was conducted to investigate whether the
+			level of conformity has changed over time and whether it is related
+			cross-culturally to individualism–collectivism. The literature
+			search produced 133 studies drawn from 17 countries. An analysis of
+			US studies found that conformity has declined since the 1950s.
+			Results from 3 surveys were used to assess a country's
+			individualism–collectivism, and for each survey the measures were
+			found to be significantly related to conformity. Collectivist
+			countries tended to show higher levels of conformity than
+			individualist countries. Conformity research must attend more to
+			cultural variables and to their role in the processes involved in
+			social influence.
+		</abstract>
 	</frame>
 	<frame>
-		<name>Time orientation in bicultural participants</name>
+		<name>Cultural differences in consumer impatience</name>
 		<researchers>
-			<rsc>Chen</rsc>
+			<rsc>Chen, Haipeng A</rsc>
 		</researchers>
 		<year>2005</year>
 		<focus>
+			<fcs>Sociocultural Level of Analysis</fcs>
 			<fcs>Culture</fcs>
 		</focus>
+		<abstract>
+			In this article, the authors examine cross-cultural variations
+			in how people discount the future. Specifically, they predict that
+			people from Western cultures are relatively less patient and
+			therefore discount the future to a greater degree than do people
+			from Eastern cultures, and thus Westerners value immediate
+			consumption relatively more. Furthermore, on the basis of regulatory
+			focus theory, the authors predict that when Easterners are faced
+			with the threat of a delay in receiving a product (i.e., a
+			prevention loss), they are more impatient, whereas when Westerners
+			are faced with the threat of not being able to enjoy a product early
+			(i.e., a promotion loss), their impatience increases. This enhanced
+			impatience manifests in preference for expedited consumption of a
+			product purchased online in two studies. In both studies, the
+			authors used a priming methodology on “bicultural” Singaporean
+			participants; the results support the predictions. In the second
+			study, they also found evidence in support of the process-based
+			explanation for the interaction between culture and message framing.
+		</abstract>
 	</frame>
 	<frame>
 		<name>The pace of life in 31 countries</name>
@@ -294,149 +769,421 @@ http://creativecommons.org/licenses/by-sa/4.0/. -->
 		</researchers>
 		<year>1999</year>
 		<focus>
+			<fsc>Sociocultural Level of Analysis</fsc>
 			<fcs>Culture</fcs>
 		</focus>
+		<abstract>
+			This study compared the pace of life in large cities from 31
+			countries around the world. Three indicators of pace of life were
+			observed: average walking speed in downtown locations, the speed
+			with which postal clerks completed a simple request (work speed),
+			and the accuracy of public clocks. Overall, pace of life was fastest
+			in Japan and the countries of Western Europe and was slowest in
+			economically undeveloped countries. The pace was significantly
+			faster in colder climates, economically productive countries, and in
+			individualistic cultures. Faster places also tended to have higher
+			rates of death from coronary heart disease, higher smoking rates,
+			and greater subjective well-being. Discussion focuses on how the
+			pace of life is intertwined with the social-psychological and
+			community characteristics of a culture, and the central role of pace
+			of life in defining the personality of a place and its people.
+		</abstract>
 	</frame>
 	<frame>
-		<name>Serial position curves with immediate and delayed free recall</name>
+		<name>Two storage mechanisms in free recall</name>
 		<researchers>
-			<rsc>Glanzer</rsc>
-			<rsc>Cunitz</rsc>
+			<rsc>Glanzer, Murray</rsc>
+			<rsc>Cunitz, Anita</rsc>
 		</researchers>
 		<year>1966</year>
 		<focus>
+			<fcs>Cognitive Level of Analysis</fcs>
+			<fcs>Memory</fcs>
 			<fcs>Multistore memory model</fcs>
 		</focus>
+		<abstract>
+			Two experiments were carried out to test the hypothesis that the
+			bimodal serial position curve in free recall is produced by output
+			from two storage mechanisms--short-term	and long-term. Experimental
+			operations were applied that were predicted to have a distinct
+			effect on each of these mechanisms, and the changes in the serial
+			position curve were observed. In the first experiment, presentation
+			rate and repetition of individual words were varied in order to
+			affect long-term storage and thereby affect the beginning sections
+			of the serial position curve. Presentation rate has the predicted
+			effect of differentially raising the beginning section of the
+			serial position curve. It does not affect the end section.
+			Repetition, however, did not have any effect that could not be
+			ascribed to presentation rate. It could not, therefore, be used to
+			demonstrate independently the predicted differential effect. In the
+			second experiment, delay between end of	list and recall was varied
+			in order to affect short-term storage and, thereby, the end	section
+			of the serial position curve. The predicted effect was clearly
+			demonstrated. The results make it possible to systematize a number
+			of findings in the literature.
+		</abstract>
 	</frame>
 	<frame>
 		<name>The effect of schemas on memory</name>
 		<researchers>
-			<rsc>Bartlett</rsc>
+			<rsc>Bartlett, Frederic</rsc>
 		</researchers>
-		<year>1923</year>
+		<year>1932</year>
 		<focus>
+			<fcs>Cognitive Level of Analysis</fcs>
 			<fcs>Schema theory</fcs>
 		</focus>
+		<abstract>ABSTRACT NOT FOUND</abstract>
 	</frame>
 	<frame>
-		<name>Anderson and Pichert</name>
+		<name>Recall of previously unrecallable information following a shift in perspective</name>
 		<researchers>
-			<rsc>Anderson</rsc>
-			<rsc>Pichert</rsc>
-		</researchers>
-		<year>1978</year>
-		<focus>
-			<fcs>Schema theory</fcs>
-		</focus>
-	</frame>
-	<frame>
-		<name>Bransford and Johnson</name>
-		<researchers>
-			<rsc>Bransford</rsc>
-			<rsc>Johnson</rsc>
+			<rsc>Anderson, Richard C</rsc>
+			<rsc>Pichert, James W</rsc>
 		</researchers>
 		<year>1978</year>
 		<focus>
+			<fcs>Cognitive Level of Analysis</fcs>
 			<fcs>Schema theory</fcs>
 		</focus>
+		<abstract>
+			College undergraduates read a story about two boys playing hooky
+			from school from the perspective of either a burglar or a person
+			interested in buying a home. After recalling the story once,
+			subjects were directed to shift perspectives and then recall the
+			story again. In two experiments, subjects produced on the second
+			recall significantly more information important to the second
+			perspective that had been unimportant to the first. They also
+			recalled less information unimportant to the second perspective
+			which had been important to the first. These data clearly show the
+			operation of retrieval processes independent from encoding
+			processes. An analysis of interview protocols suggested that the
+			instruction to take a new perspective led subjects to invoke a
+			schema that provided implicit cues for different categories of
+			story information.
+		</abstract>
 	</frame>
 	<frame>
-		<name>Staged Robbery Study</name>
+		<name>Contextual prerequisites for understanding: Some investigations of comprehension and recall</name>
 		<researchers>
-			<rsc>Ihleback</rsc>
+			<rsc>Bransford, John D</rsc>
+			<rsc>Johnson, Marcia K</rsc>
+		</researchers>
+		<year>1978</year>
+		<focus>
+			<fcs>Cognitive Level of Analysis</fcs>
+			<fcs>Schema theory</fcs>
+		</focus>
+		<abstract>
+			The present paper presents a series of studies showing that
+			relevant contextual knowledge is a prerequisite for comprehending
+			prose passages. Four studies are reported, each demonstrating
+			increased comprehension ratings and recall scores when Ss were
+			supplied with appropriate information before they heard test
+			passages. Supplying Ss with the same information subsequent to the
+			passages produced much lower comprehension ratings and recall
+			scores. Various explanations of the results are considered, and the
+			role of topics in activating cognitive contexts is discussed.
+		</abstract>
+	</frame>
+	<frame>
+		<name>Memory for a staged criminal event witnessed live and on video</name>
+		<researchers>
+			<rsc>Ihleback, C</rsc>
+			<rsc>Løve, T</rsc>
+			<rsc>Eilertsen, DE</rsc>
+			<rsc>Magnussen, S</rsc>
 		</researchers>
 		<year>2003</year>
 		<focus>
+			<fcs>Cognitive Level of Analysis</fcs>
 			<fcs>Witness reliability</fcs>
 		</focus>
+		<abstract>
+			Memory for a staged robbery was tested in two groups of participants
+			witnessing the event either live (n = 62) or on video (n = 64).
+			Immediately after the event participants filled out a questionnaire
+			probing memory with emphasis on the timing of the event and robber
+			characteristics. The results showed that participants who watched a
+			video recording of the event reported more details and with a higher
+			accuracy than participants who were present on the scene, but the
+			pattern of memory errors were similar in the two conditions. It is
+			concluded that laboratory experiments may overestimate the memory of
+			eyewitnesses but are otherwise able to simulate essential aspects of
+			memory performance in naturalistic contexts.
+		</abstract>
 	</frame>
 	<frame>
-		<name>Actual Robbery Study</name>
+		<name>A case study of eyewitness memory of a crime</name>
 		<researchers>
-			<rsc>Yuille</rsc>
-			<rsc>Cutshall</rsc>
+			<rsc>Yuille, John C</rsc>
+			<rsc>Cutshall, Judith L</rsc>
 		</researchers>
 		<year>1986</year>
 		<focus>
+			<fcs>Cognitive Level of Analysis</fcs>
 			<fcs>Witness reliability</fcs>
 		</focus>
+		<abstract>
+			21 witnesses observed a shooting incident in which 1 person
+			was killed and a 2nd seriously wounded. The incident took place on a
+			major thoroughfare in midafternoon. All of the witnesses were
+			interviewed by the investigating police, and 13 witnesses
+			(aged 15–32 yrs) agreed to a research interview 4–5 mo after the
+			event. In the present study, the eyewitness accounts provided in
+			both the police and research interviews were analyzed. The witnesses
+			were highly accurate in their accounts, and there was little change
+			in amount or accuracy of recall over 5 mo. However, some aspects of
+			color memory and age, height, and weight estimations were found to
+			be erroneous. The eyewitnesses resisted leading questions, and their
+			stress levels at the time of the event appeared to have no negative
+			effects on subsequent memory. The results differ from the pattern of
+			many laboratory studies of eyewitness memory (i.e., in the degree to
+			which the witnesses in the present study were actively involved in
+			the event) and point to the need for field research of this type to
+			evaluate the generalizability of laboratory experiments.
+		</abstract>
 	</frame>
 	<frame>
-		<name>A study of flashbulb memory</name>
+		<name>Flashbulb memories</name>
 		<researchers>
-			<rsc>Brown</rsc>
-			<rsc>Kulik</rsc>
+			<rsc>Brown, Roger</rsc>
+			<rsc>Kulik, James</rsc>
 		</researchers>
 		<year>1977</year>
 		<focus>
+			<fcs>Cognitive Level of Analysis</fcs>
 			<fcs>Flashbulb memory</fcs>
 		</focus>
+		<abstract>
+			Flashbulb Memories are memories for the circumstances in which one
+			first learned of a very surprising and consequential (or emotionally
+			arousing) event. Hearing the news that President John Kennedy had
+			been shot is the prototype case. Almost everyone can remember, with
+			an almost perceptual clarity, where he was when he heard, what he
+			was doing at the time, who told him, what was the immediate
+			aftermath, how he felt about it, and also one or more totally
+			idiosyncratic and often trivial concomitants. The present paper
+			reports a questionnaire inquiry into the determinants of such
+			memories by asking about other assassinations, highly newsworthy
+			events, and personally significant events. It is shown that while
+			the Kennedy assassination created an extraordinarily powerful and
+			widely shared flashbulb memory, it is not the only event that has
+			created such memories. The principal two determinants appear to be
+			a high level of surprise, a high level of consequentiality, or
+			perhaps emotional arousal (assessed by both rating scales and ethnic
+			group membership). If these two variables do not attain sufficiently
+			high levels, no flashbulb memory occurs. If they do attain high
+			levels, they seem, most directly, to affect the frequency of
+			rehearsal, covert and overt, which, in turn, affects the degree of
+			elaboration in the narrative of the memory that can be elicited
+			experimentally. Parallels are made explicit between the behavioral
+			theory and a less elaborated, speculative neuro-physiological theory
+			of which R. B. Livingston (1967) is the proponent Finally, an
+			argument is made that a permanent memory for incidental concomitants
+			of a surprising and consequential (in the sense of biologically
+			significant) event would have high selection value and so could
+			account for the evolution of an innate base for such a memory
+			mechanism.
+		</abstract>
 	</frame>
 	<frame>
-		<name>Neisser and Harsch's study</name>
+		<name>Phantom flashbulbs: False recollections of hearing the news about Challenger</name>
 		<researchers>
-			<rsc>Neisser</rsc>
-			<rsc>Harsch</rsc>
+			<rsc>Neisser, Ulric</rsc>
+			<rsc>Harsch, Nicole</rsc>
 		</researchers>
 		<year>1992</year>
 		<focus>
+			<fcs>Cognitive Level of Analysis</fcs>
 			<fcs>Flashbulb memory</fcs>
 		</focus>
+		<abstract>
+			report the results of a longitudinal study of memory for [the
+			Space Shuttle Challenger explosion] / the morning after the
+			explosion, Neisser collected questionnaires from . . . [44]
+			psychology students about how they had heard the news / after a
+			lapse of nearly 3 years, the same informants were asked the same
+			questions again / the most noteworthy outcome of this study is that
+			over 40% of the informants were clearly inconsistent across the two
+			occasions / these results bring the accuracy of flashbulb memories
+			into question
+		</abstract>
 	</frame>
 	<frame>
-		<name>The effects of appraisal on autonomic arousal</name>
+		<name> Experimental reduction of stress based on ego-defense theory</name>
 		<researchers>
-			<rsc>Speisman</rsc>
+			<rsc>Speisman, Joseph C</rsc>
+			<rsc>Lazarus, Richard S</rsc>
 		</researchers>
 		<year>1964</year>
 		<focus>
+			<fcs>Cognitive Level of Analysis</fcs>
 			<fcs>Emotions</fcs>
 		</focus>
+		<abstract>
+			Previous research had shown that a silent film showing
+			primitive adolescent "subincision" rites produced marked stress
+			reactions. 3 sound tracks were created for the film and compared
+			in impact with the silent version. 1, called the trauma track,
+			pointed up the threatening aspect of the film. The other 2, based
+			upon the theory of ego defense, were designed to encourage defensive
+			interpretations of the film's contents so as to reduce threat. One
+			consisted of denial and reaction formation statements about the
+			film, the other was based on intellectualization. The trauma track
+			increased evidences of stress response especially with respect to
+			continuous recordings of skin conductance during the film. The
+			defensive sound tracks reduced skin conductance evidence of stress
+			response. The effectiveness of the defensive sound tracks interacted
+			with the 2 S groups. Intellectualization was effective for the
+			students and may have been also for the air executives, but denial
+			was not as effective, at least for the student group. The findings
+			supported the importance of the process of cognitive appraisal of
+			threat in producing stress reactions, permitting the conclusion that
+			the same visual stimulus varies in the amount of stress produced
+			depending upon the nature of the cognitive appraisal the person
+			makes regarding its significance for him.
+		</abstract>
 	</frame>
 	<frame>
-		<name>Herrald and Tomaka's Study</name>
+		<name>Patterns of emotion-specific appraisal, coping, and cardiovascular reactivity during an ongoing emotional episode</name>
 		<researchers>
-			<rsc>Herrald</rsc>
-			<rsc>Tomaka</rsc>
+			<rsc>Herrald, Mary M</rsc>
+			<rsc>Tomaka, Joe</rsc>
 		</researchers>
 		<year>2002</year>
 		<focus>
+			<fcs>Cognitive Level of Analysis</fcs>
 			<fcs>Emotions</fcs>
 		</focus>
+		<abstract>
+			The authors examined emotion-specific patterns of appraisal,
+			coping, and cardiovascular reactivity during real ongoing emotional
+			episodes. In this study, 109 participants performed a neutral
+			opinion-expression task, where a confederate elicited anger, shame,
+			or pride using verbal and nonverbal behavior. The authors assessed
+			cognitive appraisals, emotional reactions, coping, outcomes (state
+			self-esteem and outcome satisfaction), and cardiovascular reactivity.
+			Results indicated substantial and theoretically consistent
+			differences between the 3 emotions (and differences from a
+			nonemotion condition) for cognitive appraisals, self-reported coping,
+			behavioral coping, self-esteem, and cardiovascular reactivity. The
+			results are discussed in relation to their implications for emotion
+			theory and for psychological and physical health. Overall, the
+			results suggest that researchers can study emotion-related issues
+			using authentic emotional reactions.
+		</abstract>
 	</frame>
 	<frame>
-		<name>Whalen's Study</name>
+		<name>Masked presentations of emotional facial expressions modulate amygdala activity without explicit Knowledge</name>
 		<researchers>
-			<rsc>Whalen</rsc>
+			<rsc>Whalen, Paul J</rsc>
+			<rsc>Rauch, Scott L</rsc>
+			<rsc>Etcoff, Nancy L</rsc>
+			<rsc>McInerney, Sean C</rsc>
+			<rsc>Lee, Michael B</rsc>
+			<rsc>Jenike, Michael A</rsc>
 		</researchers>
 		<year>1998</year>
 		<focus>
+			<fcs>Cognitive Level of Analysis</fcs>
 			<fcs>Emotions</fcs>
 		</focus>
+		<abstract>
+			Functional magnetic resonance imaging (fMRI) of the human
+			brain was used to study whether the amygdala is activated in
+			response to emotional stimuli, even in the absence of explicit
+			knowledge that such stimuli were presented. Pictures of human faces
+			bearing fearful or happy expressions were presented to 10 normal,
+			healthy subjects by using a backward masking procedure that resulted
+			in 8 of 10 subjects reporting that they had not seen these facial
+			expressions. The backward masking procedure consisted of 33 msec
+			presentations of fearful or happy facial expressions, their offset
+			coincident with the onset of 167 msec presentations of neutral
+			facial expressions. Although subjects reported seeing only neutral
+			faces, blood oxygen level-dependent (BOLD) fMRI signal in the
+			amygdala was significantly higher during viewing of masked fearful
+			faces than during the viewing of masked happy faces. This difference
+			was composed of significant signal increases in the amygdala to
+			masked fearful faces as well as significant signal decreases to
+			masked happy faces, consistent with the notion that the level of
+			amygdala activation is affected differentially by the emotional
+			valence of external stimuli. In addition, these facial expressions
+			activated the sublenticular substantia innominata (SI), where signal
+			increases were observed to both fearful and happy faces—suggesting a
+			spatial dissociation of territories that respond to emotional
+			valence versus salience or arousal value. This study, using fMRI in
+			conjunction with masked stimulus presentations, represents an
+			initial step toward determining the role of the amygdala in
+			nonconscious processing.
+		</abstract>
 	</frame>
 	<!--Year 1 end-->
 	<frame>
-		<name>Reliability of DSM-IV Anxiety and Mood Disorders</name>
+		<name>Reliability of DSM-IV anxiety and mood disorders: Implications for the classification of emotional disorders</name>
 		<researchers>
-			<rsc>Brown</rsc>
-			<rsc>Nardo</rsc>
+			<rsc>Brown, Timothy A</rsc>
+			<rsc>DiNardo, Peter A</rsc>
+			<rsc>Lehman, Cassandra L</rsc>
+			<rsc>Laura, Campbell A</rsc>
 		</researchers>
 		<year>2001</year>
 		<focus>
+			<fcs>Abnormal Psychology</fcs>
 			<fcs>Diagnostic reliability</fcs>
 		</focus>
+		<abstract>
+			The reliability of current and lifetime Diagnostic and Statistical
+			Manual of Mental Disorders (4th ed.; DSM-IV; American Psychiatric
+			Association, 1994) anxiety and mood disorders was examined in 362
+			outpatients who underwent 2 independent administrations of the
+			Anxiety Disorders Interview Schedule for DSM-IV: Lifetime version
+			(ADIS-IV–L). Good to excellent reliability was obtained for the
+			majority of DSM-IV categories. For many disorders, a common source
+			of unreliability was disagreements on whether constituent symptoms
+			were sufficient in number, severity, or duration to meet DSM-IV
+			diagnostic criteria. These analyses also highlighted potential
+			boundary problems for some disorders (e.g., generalized anxiety
+			disorder and major depressive disorder). Analyses of ADIS-IV–L
+			clinical ratings (0–8 scales) indicated favorable interrater
+			agreement for the dimensional features of DSM-IV anxiety and mood
+			disorders. The findings are discussed in regard to their
+			implications for the classification of emotional disorders.
+		</abstract>
 	</frame>
 	<frame>
-		<name>Children into DSM Don't Go</name>
+		<name>Children into DSM don't go: A comparison of classification systems for eating disorders in childhood and early adolescence</name>
 		<researchers>
-			<rsc>Nicholls</rsc>
-			<rsc>Chater</rsc>
-			<rsc>Lask</rsc>
+			<rsc>Nicholls, Dasha</rsc>
+			<rsc>Chater, Rachel</rsc>
+			<rsc>Lask, Bryan</rsc>
 		</researchers>
 		<year>1999</year>
 		<focus>
+			<fcs>Abnormal Psychology</fcs>
 			<fcs>Diagnostic reliability</fcs>
 		</focus>
+		<abstract>
+			Objective: To evaluate the reliability of diagnostic classification
+			systems for eating disorders when applied to children and young
+			adolescents. Method: Eighty-one patients were randomly selected from
+			a population of 226 children (age 7-16) presentig with eating
+			difficulties to a specialist clinic. Diagnoses were assigned
+			according to three classification systems: the 10th edition of the
+			International Classification of Diseases (ICD 10), the 4th edition
+			of the Diagnostic and Statistical Manual of Mental Disorders
+			(DSM-IV), and Great Ormond Street (GOS) criteria. Ratings were
+			performed by two clinicians blind to the diagnosis of the other.
+			Results: Interrater reliablity values (kappa) for the three systems
+			were 0.357 (ICD 10), 0.636 (DSM-IV), and 0.879 (GOD). using DSM
+			criteria, more than 50% of children were classified as eating
+			disorder not otherwise classified (EDNOS) or could not be
+			classified. Discussion: DSM-IV and ICD 10 criteria are of little
+			value in the classification of the eating difficulties of children.
+			The GOS criteria, which were developed for this age range, are more
+			reliable. The classification of eating disorders in childhood needs
+			reevaluation.
+		</abstract>
 	</frame>
 	<frame>
 		<name>Labelling theory</name>
@@ -445,7 +1192,79 @@ http://creativecommons.org/licenses/by-sa/4.0/. -->
 		</researchers>
 		<year>1973</year>
 		<focus>
+			<fcs>Abnormal Psychology</fcs>
 			<fcs>Diagnostic ethics</fcs>
 		</focus>
+		<abstract>ABSTRACT NOT FOUND</abstract>
+	</frame>
+	<frame>
+		<name>A swedish national twin study of lifetime major depression</name>
+		<researchers>
+			<rsc>Kendler, Kenneth S</rsc>
+			<rsc>Gatz, Margaret</rsc>
+			<rsc>Gardner, Charles O</rsc>
+			<rsc>Pedersen, Nancy L</rsc>
+		</researchers>
+		<year>2006</year>
+		<focus>
+			<fcs>Abnormal psychology</fcs>
+			<fcs>Depression</fcs>
+		</focus>
+		<abstract>
+			Sweden has, as a whole nation, the oldest continuous
+			population register of births, including twin and higher multiple
+			maternities, starting in the 17th century. Until the 1920s, the
+			rates of multiple maternities in Sweden were among the highest known
+			among Europeans. Strong secular and regional fluctuations were
+			noted. Some of the eastern counties showed especially marked
+			decreasing trends. The twinning rate had no clear associations
+			with the anthropometric and serological data. In this paper we study
+			the temporal and regional variations of the twinning rate in the 25
+			counties of Sweden from 1751 to 1960. Different statistical methods
+			were applied in order to test the hypothesis that, irrespective of
+			the initial levels, the twinning rates for the counties converge
+			towards a common low level. We present and interpret a geometrical
+			model for the trends of the regional twinning rates. We also analyze
+			the regional heterogeneity using the ranges and the coefficients of
+			variation of the regional twinning rates. All the methods gave
+			consistent results, supporting our convergence hypothesis that the
+			regional differences in the twinning rate are gradually
+			disappearing. In addition, this study supports our earlier findings
+			that the regional heterogeneity cannot be explained by differences
+			in the distribution of maternal age and parity. We suggest that the
+			convergence may be caused by increased urbanization and
+			industrialization and by the increased interregional migration of
+			citizens as a consequence of better communications, which lead to
+			the breaking up of isolates and decreased endogamy.</abstract>
+	</frame>
+	<frame>
+		<name>Correlation between Cortisol and Negative Life Events</name>
+		<researchers>
+			<rsc>Cutuli, JJ</rsc>
+			<rsc>Wilk, Kristen L</rsc>
+			<rsc>Herbers, Janette E</rsc>
+			<rsc>Gunnar, Megan R</rsc>
+			<rsc>Masten, Ann S</rsc>
+		</researchers>
+		<year>2010</year>
+		<focus>
+			<fcs>Abnormal Psychology</fcs>
+			<fcs>Depression</fcs>
+		</focus>
+		<abstract>
+			Homelessness represents a context of extreme poverty and risk for
+			child development. This study compared the relative influence of two
+			classes of risk in the context of homelessness. Levels of
+			socioeconomic resource-related risk and negative lifetime events
+			were examined with respect to morning cortisol levels and cortisol
+			response to a set of cognitive tasks. Participants were 66 children
+			between the ages of 4 and 7 years staying in an emergency shelter
+			for families. Adversities largely reflecting family level negative
+			life events predicted higher levels of morning cortisol and
+			differences in initial level and change over the course of the
+			session of cognitive tasks. In contrast, a socioeconomic cumulative
+			risk score was not associated with morning or session-related
+			differences in cortisol.
+		</abstract>
 	</frame>
 </FrameList>
