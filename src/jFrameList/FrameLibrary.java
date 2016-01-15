@@ -1,5 +1,6 @@
 package jFrameList;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 
@@ -13,9 +14,19 @@ public class FrameLibrary
 	{
 		try
 		{
-			InputStream file = getClass().getResourceAsStream("/jFrameList/FRAME_List.xml");
 			Builder parser = new Builder();
-			Document doc = parser.build(file);
+			Document doc;
+			try //Cool! Nested try statement!
+			{
+				doc = parser.build("http://sourec.github.io/JFrameList/FRAME_List.xml");
+			}
+			catch (IOException ex)
+			{
+				System.out.println("Couldn't load file from GitHub; defaulting to stored XML file.");
+				InputStream file = getClass().getResourceAsStream("/jFrameList/FRAME_List.xml");
+				doc = parser.build(file);
+			}
+			
 			Element root = doc.getRootElement();
 			Elements frames = root.getChildElements();
 			
