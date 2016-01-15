@@ -45,16 +45,16 @@ public class FrameLibrary
 		}
 	}
 
-	public int size()
-	{
-		return frameList.size();
-	}
-
 	public void clear()
 	{
 		frameList.clear();
 	}
 
+	public int size()
+	{
+		return frameList.size();
+	}
+	
 	public ArrayList<String> getNames()
 	{	
 		ArrayList<String> ret = new ArrayList<String>();
@@ -83,82 +83,6 @@ public class FrameLibrary
 			ex.printStackTrace();
 		}
 
-		return ret;
-	}
-
-	public ArrayList<Frame> searchYear(int key)
-	{
-		ArrayList<Frame> ret = new ArrayList<Frame>();
-		try
-		{
-			for (int i = 0; i < frameList.size(); i++)
-			{
-				Frame frame = (Frame) frameList.get(i).clone();
-				if (key == frame.year)
-					ret.add(frame);
-			}
-		}
-		catch (CloneNotSupportedException ex)
-		{
-			ex.printStackTrace();
-		}
-
-		return ret;
-	}
-
-	public ArrayList<Frame> searchResearcher(String key)
-	{
-		ArrayList<Frame> ret = new ArrayList<Frame>();
-		key = key.toLowerCase();
-
-		try
-		{
-			for (int i = 0; i < frameList.size(); i++)
-			{
-				Frame frame = (Frame) frameList.get(i).clone();
-				for (int j = 0; j < frame.researchers.size(); j++)
-				{
-					String rsc = frame.researchers.get(j).toLowerCase();
-					if (rsc.contains(key))
-					{
-						ret.add(frame);
-						break;
-					}
-				}
-			}
-		}
-		catch (CloneNotSupportedException ex)
-		{
-			ex.printStackTrace();
-		}
-		return ret;
-	}
-
-	public ArrayList<Frame> searchFocus(String key)
-	{
-		ArrayList<Frame> ret = new ArrayList<Frame>();
-		key = key.toLowerCase();
-
-		try
-		{
-			for (int i = 0; i < frameList.size(); i++)
-			{
-				Frame frame = (Frame) frameList.get(i).clone();
-				for (int j = 0; j < frame.foci.size(); j++)
-				{
-					String foc = frame.foci.get(j).toLowerCase();
-					if (foc.contains(key))
-					{
-						ret.add(frame);
-						break;
-					}
-				}
-			}
-		}
-		catch (CloneNotSupportedException ex)
-		{
-			ex.printStackTrace();
-		}
 		return ret;
 	}
 
